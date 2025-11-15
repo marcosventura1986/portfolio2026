@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://venturadesign.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturadesign.com/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://venturadesign.com/?lang=pt" />
+    <lastmod>2025-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Project Pages -->
+  <url>
+    <loc>https://venturadesign.com/project/nectar.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturadesign.com/project/nectar.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://venturadesign.com/project/nectar.html?lang=pt" />
+    <lastmod>2025-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://venturadesign.com/project/o-caviar-brand.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturadesign.com/project/o-caviar-brand.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://venturadesign.com/project/o-caviar-brand.html?lang=pt" />
+    <lastmod>2025-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://venturadesign.com/project/sumoqubes-brand.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturadesign.com/project/sumoqubes-brand.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://venturadesign.com/project/sumoqubes-brand.html?lang=pt" />
+    <lastmod>2025-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://venturadesign.com/project/republic-of-fun-brand.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturadesign.com/project/republic-of-fun-brand.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://venturadesign.com/project/republic-of-fun-brand.html?lang=pt" />
+    <lastmod>2025-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://venturadesign.com/project/selected-renders.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturadesign.com/project/selected-renders.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://venturadesign.com/project/selected-renders.html?lang=pt" />
+    <lastmod>2025-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://venturadesign.com/project/o-caviar-web.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturadesign.com/project/o-caviar-web.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://venturadesign.com/project/o-caviar-web.html?lang=pt" />
+    <lastmod>2025-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://venturadesign.com/project/playthisigf.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturadesign.com/project/playthisigf.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://venturadesign.com/project/playthisigf.html?lang=pt" />
+    <lastmod>2025-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://venturadesign.com/project/sumoqubes.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturadesign.com/project/sumoqubes.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://venturadesign.com/project/sumoqubes.html?lang=pt" />
+    <lastmod>2025-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://venturadesign.com/project/republic-of-fun.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venturadesign.com/project/republic-of-fun.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://venturadesign.com/project/republic-of-fun.html?lang=pt" />
+    <lastmod>2025-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset>

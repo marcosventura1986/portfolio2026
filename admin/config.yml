@@ -1,0 +1,175 @@
+backend:
+  name: test-repo
+
+media_folder: "static/uploads"
+public_folder: "/static/uploads"
+
+publish_mode: simple
+logo_url: https://venturadesign.com/assets/logo.svg
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    delete: true
+    format: "json"
+    identifier_field: "title_en"
+    editor:
+      preview: true
+    fields:
+      - { label: "Published", name: "published", widget: "boolean", default: true }
+      - { label: "Pillar", name: "pillar", widget: "select", options: ["graphic", "web", "3d"] }
+      - { label: "Client", name: "client", widget: "string" }
+      - { label: "Year", name: "year", widget: "number", value_type: "int", min: 2020, max: 2030 }
+      - { label: "Role", name: "role", widget: "list", allow_add: true }
+      - { label: "Duration", name: "duration", widget: "string" }
+      - { label: "Tools", name: "tools", widget: "list", allow_add: true }
+      
+      - label: "Title (English)"
+        name: "title_en"
+        widget: "string"
+      
+      - label: "Title (Portuguese)"
+        name: "title_pt"
+        widget: "string"
+        required: false
+      
+      - label: "Summary (English)"
+        name: "summary_en"
+        widget: "text"
+      
+      - label: "Summary (Portuguese)"
+        name: "summary_pt"
+        widget: "text"
+        required: false
+      
+      - label: "Challenge (English)"
+        name: "challenge_en"
+        widget: "markdown"
+        required: false
+        buttons: ["bold", "italic", "link", "heading-two", "heading-three"]
+      
+      - label: "Challenge (Portuguese)"
+        name: "challenge_pt"
+        widget: "markdown"
+        required: false
+        buttons: ["bold", "italic", "link", "heading-two", "heading-three"]
+      
+      - label: "Approach (English)"
+        name: "approach_en"
+        widget: "markdown"
+        required: false
+        buttons: ["bold", "italic", "link", "heading-two", "heading-three"]
+      
+      - label: "Approach (Portuguese)"
+        name: "approach_pt"
+        widget: "markdown"
+        required: false
+        buttons: ["bold", "italic", "link", "heading-two", "heading-three"]
+      
+      - label: "Outcome (English)"
+        name: "outcome_en"
+        widget: "markdown"
+        required: false
+        buttons: ["bold", "italic", "link", "heading-two", "heading-three"]
+      
+      - label: "Outcome (Portuguese)"
+        name: "outcome_pt"
+        widget: "markdown"
+        required: false
+        buttons: ["bold", "italic", "link", "heading-two", "heading-three"]
+      
+      - label: "Body Content (English)"
+        name: "body_en"
+        widget: "markdown"
+        required: false
+        buttons: ["bold", "italic", "link", "heading-two", "heading-three", "bulleted-list", "numbered-list"]
+      
+      - label: "Body Content (Portuguese)"
+        name: "body_pt"
+        widget: "markdown"
+        required: false
+        buttons: ["bold", "italic", "link", "heading-two", "heading-three", "bulleted-list", "numbered-list"]
+      
+      - label: "Cover Image"
+        name: "cover"
+        widget: "image"
+      
+      - label: "Gallery"
+        name: "gallery"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Image", name: "src", widget: "image" }
+          - { label: "Caption", name: "caption", widget: "string" }
+      
+      - label: "Video"
+        name: "video"
+        widget: "file"
+        required: false
+        media_library:
+          config:
+            multiple: false
+      
+      - label: "Metrics"
+        name: "metrics"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Value", name: "value", widget: "string" }
+      
+      - label: "Testimonial"
+        name: "testimonial"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Author", name: "author", widget: "string" }
+          - { label: "Role", name: "role", widget: "string" }
+          - { label: "Company", name: "company", widget: "string" }
+          - { label: "Quote", name: "quote", widget: "text" }
+      
+      - label: "External Link"
+        name: "external_link"
+        widget: "string"
+        required: false
+      
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        max: 5
+        required: false
+
+  - name: "settings"
+    label: "Settings"
+    files:
+      - label: "Site Settings"
+        name: "site"
+        file: "content/settings/site.json"
+        format: "json"
+        editor:
+          preview: false
+        fields:
+          - { label: "Contact Email", name: "contact_email", widget: "string" }
+          
+          - label: "Social Links"
+            name: "social"
+            widget: "object"
+            fields:
+              - { label: "Behance", name: "behance", widget: "string" }
+              - { label: "ArtStation", name: "artstation", widget: "string" }
+              - { label: "Itch.io", name: "itchio", widget: "string" }
+              - { label: "Vimeo", name: "vimeo", widget: "string" }
+              - { label: "LinkedIn", name: "linkedin", widget: "string" }
+              - { label: "Instagram", name: "instagram", widget: "string" }
+          
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - { label: "Author", name: "author", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+              - { label: "Company", name: "company", widget: "string" }
+              - { label: "Quote", name: "quote", widget: "text", pattern: ['.{1,220}', 'Must be 220 characters or less'] }
+              - { label: "Avatar", name: "avatar", widget: "image" }

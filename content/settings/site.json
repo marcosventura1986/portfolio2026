@@ -1,0 +1,27 @@
+{
+  "contact_email": "hello@venturadesign.com",
+  "social": {
+    "behance": "https://www.behance.net/venturadesign",
+    "artstation": "https://www.artstation.com/venturadesign",
+    "itchio": "https://venturadesign.itch.io/",
+    "vimeo": "https://vimeo.com/venturadesign",
+    "linkedin": "https://www.linkedin.com/in/venturadesign",
+    "instagram": "https://www.instagram.com/venturadesign"
+  },
+  "testimonials": [
+    {
+      "author": "Sarah Mitchell",
+      "role": "Marketing Director",
+      "company": "Nectar Skincare",
+      "quote": "Ventura transformed our brand identity into something truly memorable. Fast, professional, and creative.",
+      "avatar": "/static/uploads/avatar-sarah.jpg"
+    },
+    {
+      "author": "David Chen",
+      "role": "Product Manager",
+      "company": "TechFlow Inc",
+      "quote": "The 3D work was exceptional. Clean, modern, and exactly what we needed for our product launch.",
+      "avatar": "/static/uploads/avatar-david.jpg"
+    }
+  ]
+}

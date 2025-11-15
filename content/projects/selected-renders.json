@@ -1,0 +1,53 @@
+{
+  "published": true,
+  "pillar": "3d",
+  "client": "Personal Work",
+  "year": 2024,
+  "role": ["3D Modeling", "Lighting", "Rendering", "Post-Production"],
+  "duration": "Ongoing",
+  "tools": ["Blender", "Cycles", "Photoshop"],
+  "title_en": "Selected Renders — 3D Gallery",
+  "title_pt": "Renders Selecionados — Galeria 3D",
+  "summary_en": "Curated collection of 3D work spanning product visualization, interior scenes, and abstract explorations.",
+  "summary_pt": "Coleção curada de trabalho 3D abrangendo visualização de produto, cenas de interior e explorações abstratas.",
+  "challenge_en": "Demonstrate versatility across different 3D disciplines while maintaining a cohesive aesthetic.",
+  "challenge_pt": "Demonstrar versatilidade em diferentes disciplinas 3D mantendo uma estética coesa.",
+  "approach_en": "Focus on clean lighting, material accuracy, and composition. Each piece explores different techniques while adhering to minimal aesthetic principles.",
+  "approach_pt": "Foco em iluminação limpa, precisão de materiais e composição. Cada peça explora técnicas diferentes aderindo a princípios estéticos minimalistas.",
+  "outcome_en": "Portfolio of high-quality renders showcasing technical skill and artistic vision.",
+  "outcome_pt": "Portfolio de renders de alta qualidade mostrando habilidade técnica e visão artística.",
+  "body_en": "## Product Visualization\n\nClean, studio-lit product renders emphasizing form, materials, and details. Focus on photorealistic lighting and texture work.\n\n## Interior Scenes\n\nArchitectural visualization exploring space, light, and atmosphere. Emphasis on mood and material believability.\n\n## Abstract Explorations\n\nExperimental work pushing technical and artistic boundaries. Playing with procedural materials, physics simulations, and non-representational forms.",
+  "body_pt": "",
+  "cover": "/static/uploads/renders-cover.jpg",
+  "gallery": [
+    {
+      "src": "/static/uploads/render-product-01.jpg",
+      "caption": "Product: Minimalist speaker design"
+    },
+    {
+      "src": "/static/uploads/render-product-02.jpg",
+      "caption": "Product: Ceramic vase study"
+    },
+    {
+      "src": "/static/uploads/render-interior-01.jpg",
+      "caption": "Interior: Contemporary living space"
+    },
+    {
+      "src": "/static/uploads/render-interior-02.jpg",
+      "caption": "Interior: Natural light study"
+    },
+    {
+      "src": "/static/uploads/render-abstract-01.jpg",
+      "caption": "Abstract: Geometric composition"
+    },
+    {
+      "src": "/static/uploads/render-abstract-02.jpg",
+      "caption": "Abstract: Material exploration"
+    }
+  ],
+  "video": "",
+  "metrics": [],
+  "testimonial": null,
+  "external_link": "",
+  "tags": ["3d", "rendering", "blender", "visualization"]
+}

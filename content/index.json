@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "nectar",
+    "title_en": "Nectar — Brand & Event System",
+    "title_pt": "Nectar — Sistema de Marca e Eventos",
+    "pillar": "graphic",
+    "year": 2025,
+    "client": "Nectar (Honey-based Skincare)",
+    "cover": "/static/uploads/nectar-cover.jpg",
+    "summary_en": "A warm, modern identity for a honey-based skincare line — scaled from print to event presence.",
+    "summary_pt": "Uma identidade moderna e acolhedora para uma linha de cosméticos à base de mel — escalada de impressos a presença em eventos."
+  },
+  {
+    "slug": "o-caviar-brand",
+    "title_en": "O Caviar — Brand & Packaging",
+    "title_pt": "O Caviar — Marca e Embalagem",
+    "pillar": "graphic",
+    "year": 2024,
+    "client": "O Caviar (Premium Delicatessen)",
+    "cover": "/static/uploads/o-caviar-brand-cover.jpg",
+    "summary_en": "High-contrast identity for a premium delicatessen — from logo to micro-grid tin labels.",
+    "summary_pt": "Identidade de alto contraste para um delicatessen premium — do logo às etiquetas de lata com micro-grid."
+  },
+  {
+    "slug": "sumoqubes-brand",
+    "title_en": "SumoQubes — IP Branding",
+    "title_pt": "SumoQubes — Branding de IP",
+    "pillar": "graphic",
+    "year": 2024,
+    "client": "SumoQubes (Gaming IP)",
+    "cover": "/static/uploads/sumoqubes-brand-cover.jpg",
+    "summary_en": "Playful yet clear identity system for a gaming IP — logo suite, key art, and social templates.",
+    "summary_pt": "Sistema de identidade divertido mas claro para uma IP de jogos — suite de logos, key art e templates sociais."
+  },
+  {
+    "slug": "republic-of-fun-brand",
+    "title_en": "Republic of Fun — Studio Identity",
+    "title_pt": "Republic of Fun — Identidade de Estúdio",
+    "pillar": "graphic",
+    "year": 2023,
+    "client": "Republic of Fun (Creative Studio)",
+    "cover": "/static/uploads/republic-brand-cover.jpg",
+    "summary_en": "Minimal studio identity that balances professionalism with creative energy.",
+    "summary_pt": "Identidade de estúdio minimalista que equilibra profissionalismo com energia criativa."
+  },
+  {
+    "slug": "selected-renders",
+    "title_en": "Selected Renders — 3D Gallery",
+    "title_pt": "Renders Selecionados — Galeria 3D",
+    "pillar": "3d",
+    "year": 2024,
+    "client": "Personal Work",
+    "cover": "/static/uploads/renders-cover.jpg",
+    "summary_en": "Curated collection of 3D work spanning product visualization, interior scenes, and abstract explorations.",
+    "summary_pt": "Coleção curada de trabalho 3D abrangendo visualização de produto, cenas de interior e explorações abstratas."
+  },
+  {
+    "slug": "o-caviar-web",
+    "title_en": "O Caviar — E-commerce Website",
+    "title_pt": "O Caviar — Website E-commerce",
+    "pillar": "web",
+    "year": 2024,
+    "client": "O Caviar (Premium Delicatessen)",
+    "cover": "/static/uploads/o-caviar-web-cover.jpg",
+    "summary_en": "Fast, elegant e-commerce experience for premium delicatessen — clean UI with product-first approach.",
+    "summary_pt": "Experiência e-commerce rápida e elegante para delicatessen premium — UI limpa com abordagem focada no produto."
+  },
+  {
+    "slug": "playthisigf",
+    "title_en": "PlayThis IGF — Event Website",
+    "title_pt": "PlayThis IGF — Website de Evento",
+    "pillar": "web",
+    "year": 2023,
+    "client": "PlayThis IGF (Gaming Event)",
+    "cover": "/static/uploads/playthis-cover.jpg",
+    "summary_en": "Bold, animated event site for independent game festival — engaging interactions with fast performance.",
+    "summary_pt": "Site de evento animado e ousado para festival de jogos independentes — interações envolventes com performance rápida."
+  },
+  {
+    "slug": "sumoqubes",
+    "title_en": "SumoQubes — Game Website",
+    "title_pt": "SumoQubes — Website do Jogo",
+    "pillar": "web",
+    "year": 2024,
+    "client": "SumoQubes (Gaming IP)",
+    "cover": "/static/uploads/sumoqubes-web-cover.jpg",
+    "summary_en": "Playful, high-performance marketing site for mobile game — character-driven design with smooth animations.",
+    "summary_pt": "Site de marketing divertido e de alta performance para jogo mobile — design focado em personagens com animações suaves."
+  },
+  {
+    "slug": "republic-of-fun",
+    "title_en": "Republic of Fun — Studio Website",
+    "title_pt": "Republic of Fun — Website do Estúdio",
+    "pillar": "web",
+    "year": 2023,
+    "client": "Republic of Fun (Creative Studio)",
+    "cover": "/static/uploads/republic-web-cover.jpg",
+    "summary_en": "Clean, portfolio-focused website for creative studio — showcasing work with minimal distraction.",
+    "summary_pt": "Website limpo e focado em portfolio para estúdio criativo — mostrando trabalhos com mínima distração."
+  }
+]

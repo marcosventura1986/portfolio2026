@@ -1,0 +1,54 @@
+{
+  "published": true,
+  "pillar": "web",
+  "client": "SumoQubes (Gaming IP)",
+  "year": 2024,
+  "role": ["Web Design", "UI/UX", "Front-end Development", "Content Strategy"],
+  "duration": "6 weeks",
+  "tools": ["Figma", "React", "Next.js", "Tailwind CSS"],
+  "title_en": "SumoQubes — Game Website",
+  "title_pt": "SumoQubes — Website do Jogo",
+  "summary_en": "Playful, high-performance marketing site for mobile game — character-driven design with smooth animations.",
+  "summary_pt": "Site de marketing divertido e de alta performance para jogo mobile — design focado em personagens com animações suaves.",
+  "challenge_en": "Appeal to casual mobile gamers while showcasing game features and driving app store conversions.",
+  "challenge_pt": "Atrair jogadores mobile casuais enquanto mostra funcionalidades do jogo e impulsiona conversões na app store.",
+  "approach_en": "Character-forward design with playful interactions; clear feature breakdown; app store CTAs above fold; optimized for mobile devices.",
+  "approach_pt": "Design focado em personagens com interações divertidas; breakdown claro de funcionalidades; CTAs da app store acima da dobra; otimizado para dispositivos mobile.",
+  "outcome_en": "Engaging marketing site that increased app store traffic by 200% and improved conversion rates.",
+  "outcome_pt": "Site de marketing envolvente que aumentou tráfego da app store em 200% e melhorou taxas de conversão.",
+  "body_en": "## Character Showcase\n\nLarge hero featuring the SumoQubes characters with subtle animations and parallax effects. Each character has a dedicated section highlighting their unique abilities.\n\n## Feature Highlights\n\nClear, digestible sections explaining game mechanics, social features, and progression systems. Supported by gameplay GIFs and screenshots.\n\n## Download Flow\n\nStrategically placed app store buttons with smart detection for iOS/Android. Clear messaging about game features and social proof (ratings, downloads).",
+  "body_pt": "",
+  "cover": "/static/uploads/sumoqubes-web-cover.jpg",
+  "gallery": [
+    {
+      "src": "/static/uploads/sumoqubes-web-hero.jpg",
+      "caption": "Character-driven hero section"
+    },
+    {
+      "src": "/static/uploads/sumoqubes-web-features.jpg",
+      "caption": "Game features breakdown"
+    },
+    {
+      "src": "/static/uploads/sumoqubes-web-characters.jpg",
+      "caption": "Character showcase section"
+    }
+  ],
+  "video": "/static/uploads/sumoqubes-web-demo.mp4",
+  "metrics": [
+    {
+      "label": "App Store Traffic",
+      "value": "+200%"
+    },
+    {
+      "label": "Install Conversion",
+      "value": "12.5%"
+    },
+    {
+      "label": "Lighthouse Score",
+      "value": "96"
+    }
+  ],
+  "testimonial": null,
+  "external_link": "https://sumoqubes.com",
+  "tags": ["gaming", "marketing", "nextjs", "web-design"]
+}

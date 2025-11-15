@@ -1,0 +1,360 @@
+<!DOCTYPE html><!DOCTYPE html>
+
+<html><html>
+
+<head><head>
+
+  <meta charset="utf-8" />  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Content Manager - Ventura Design</title>  <title>Content Manager - Ventura Design</title>
+
+    
+
+  <!--   <!-- Include the styles for previews -->
+
+    SETUP INSTRUCTIONS:  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    1. Deploy this site to Netlify  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    2. Enable Netlify Identity in your site settings  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+    3. Enable Git Gateway in Identity settings  <link href="/assets/css/styles.css" rel="stylesheet" />
+
+    4. Invite yourself as a user  
+
+    5. Access /admin/ and login with your Netlify Identity credentials  <!-- Netlify Identity Widget -->
+
+  -->  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  </head>
+
+  <!-- Include fonts for previews --><body>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">  <!-- Include the Decap CMS script -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">  
+
+    <!-- Custom preview templates -->
+
+  <!-- Netlify Identity Widget -->  <script src="/admin/preview-templates.js"></script>
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>  
+
+</head>  <script>
+
+<body>    // Initialize the CMS
+
+  <!-- Decap CMS -->    CMS.init();
+
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>    
+
+      // Custom widget for rich text with formatting options
+
+  <!-- Custom preview templates -->    CMS.registerEditorComponent({
+
+  <script src="preview-templates.js"></script>      id: "highlight",
+
+        label: "Highlight",
+
+  <script>      fields: [{name: 'text', label: 'Text', widget: 'string'}],
+
+    // Redirect to home after logout      pattern: /^<mark>(.*?)<\/mark>$/,
+
+    if (window.netlifyIdentity) {      fromBlock: function(match) {
+
+      window.netlifyIdentity.on("init", user => {        return {
+
+        if (!user) {          text: match[1]
+
+          window.netlifyIdentity.on("login", () => {        };
+
+            document.location.href = "/admin/";      },
+
+          });      toBlock: function(obj) {
+
+        }        return '<mark>' + obj.text + '</mark>';
+
+      });      },
+
+            toPreview: function(obj) {
+
+      window.netlifyIdentity.on("logout", () => {        return '<mark style="background: var(--mint); color: var(--bg);">' + obj.text + '</mark>';
+
+        document.location.href = "/";      }
+
+      });    });
+
+    }
+
+        // Font size component
+
+    // Custom success notification    CMS.registerEditorComponent({
+
+    CMS.registerEventListener({      id: "fontsize",
+
+      name: 'postSave',      label: "Font Size",
+
+      handler: ({ entry }) => {      fields: [
+
+        // Show success toast        {name: 'text', label: 'Text', widget: 'string'},
+
+        const toast = document.createElement('div');        {name: 'size', label: 'Size', widget: 'select', options: ['small', 'normal', 'large', 'xlarge']}
+
+        toast.style.cssText = `      ],
+
+          position: fixed;      pattern: /^<span class="text-(small|normal|large|xlarge)">(.*?)<\/span>$/,
+
+          bottom: 2rem;      fromBlock: function(match) {
+
+          right: 2rem;        return {
+
+          background: #141414;          size: match[1],
+
+          color: #FFFFFF;          text: match[2]
+
+          padding: 1.5rem 2rem;        };
+
+          border-radius: 12px;      },
+
+          border: 1px solid #7FFFCA;      toBlock: function(obj) {
+
+          box-shadow: 0 8px 24px rgba(0,0,0,0.4);        return '<span class="text-' + obj.size + '">' + obj.text + '</span>';
+
+          z-index: 10000;      },
+
+          font-family: 'Poppins', sans-serif;      toPreview: function(obj) {
+
+          animation: slideIn 260ms cubic-bezier(0.2, 0.8, 0.2, 1);        const sizes = {
+
+        `;          small: '0.875rem',
+
+        toast.innerHTML = `          normal: '1rem',
+
+          <div style="display: flex; align-items: center; gap: 1rem;">          large: '1.25rem',
+
+            <svg width="24" height="24" fill="none" stroke="#7FFFCA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">          xlarge: '1.5rem'
+
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>        };
+
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>        return '<span style="font-size: ' + sizes[obj.size] + ';">' + obj.text + '</span>';
+
+            </svg>      }
+
+            <div>    });
+
+              <strong style="display: block; margin-bottom: 0.25rem; color: #7FFFCA;">Project saved successfully!</strong>
+
+              <span style="font-size: 0.875rem; color: #D3D3D3;">Changes have been committed to your repository.</span>    // Font color component
+
+            </div>    CMS.registerEditorComponent({
+
+          </div>      id: "fontcolor",
+
+        `;      label: "Font Color",
+
+              fields: [
+
+        const style = document.createElement('style');        {name: 'text', label: 'Text', widget: 'string'},
+
+        style.textContent = `        {name: 'color', label: 'Color', widget: 'select', options: [
+
+          @keyframes slideIn {          {label: 'Pink', value: 'pink'},
+
+            from {          {label: 'Mint', value: 'mint'},
+
+              transform: translateX(100%);          {label: 'Magenta', value: 'magenta'},
+
+              opacity: 0;          {label: 'Dim', value: 'dim'}
+
+            }        ]}
+
+            to {      ],
+
+              transform: translateX(0);      pattern: /^<span class="text-color-(pink|mint|magenta|dim)">(.*?)<\/span>$/,
+
+              opacity: 1;      fromBlock: function(match) {
+
+            }        return {
+
+          }          color: match[1],
+
+        `;          text: match[2]
+
+        document.head.appendChild(style);        };
+
+        document.body.appendChild(toast);      },
+
+              toBlock: function(obj) {
+
+        setTimeout(() => {        return '<span class="text-color-' + obj.color + '">' + obj.text + '</span>';
+
+          toast.style.animation = 'slideIn 260ms reverse';      },
+
+          setTimeout(() => toast.remove(), 300);      toPreview: function(obj) {
+
+        }, 4000);        const colors = {
+
+      }          pink: 'var(--pink)',
+
+    });          mint: 'var(--mint)',
+
+              magenta: 'var(--magenta)',
+
+    // Confirm before delete          dim: 'var(--text-dim)'
+
+    CMS.registerEventListener({        };
+
+      name: 'prePublish',        return '<span style="color: ' + colors[obj.color] + ';">' + obj.text + '</span>';
+
+      handler: ({ entry }) => {      }
+
+        return new Promise((resolve, reject) => {    });
+
+          const isDelete = entry.get('slug') === undefined;
+
+          if (isDelete) {    // Success toast after save
+
+            const confirmed = confirm('This will permanently delete the project file. Are you sure?');    CMS.registerEventListener({
+
+            if (confirmed) {      name: 'preSave',
+
+              resolve();      handler: ({ entry }) => {
+
+            } else {        console.log('Saving entry:', entry.get('data').toJS());
+
+              reject();      }
+
+            }    });
+
+          } else {
+
+            resolve();    CMS.registerEventListener({
+
+          }      name: 'postSave',
+
+        });      handler: ({ entry }) => {
+
+      }        // Show success message
+
+    });        const message = document.createElement('div');
+
+  </script>        message.className = 'cms-toast cms-toast--success';
+
+</body>        message.textContent = 'Project saved successfully!';
+
+</html>        message.style.cssText = `
+
+          position: fixed;
+          top: 20px;
+          right: 20px;
+          background: #7FFFCA;
+          color: #0B0B0B;
+          padding: 16px 24px;
+          border-radius: 8px;
+          font-weight: 500;
+          z-index: 10000;
+          animation: slideIn 0.3s ease;
+        `;
+        document.body.appendChild(message);
+        
+        setTimeout(() => {
+          message.style.opacity = '0';
+          setTimeout(() => message.remove(), 300);
+        }, 3000);
+        
+        // Update index.json
+        updateProjectIndex();
+      }
+    });
+
+    // Delete confirmation
+    CMS.registerEventListener({
+      name: 'preDelete',
+      handler: ({ entry }) => {
+        return confirm('This will permanently delete the project file. Are you sure?');
+      }
+    });
+
+    CMS.registerEventListener({
+      name: 'postDelete',
+      handler: ({ entry }) => {
+        // Show success message
+        const message = document.createElement('div');
+        message.className = 'cms-toast cms-toast--success';
+        message.textContent = 'Project deleted successfully.';
+        message.style.cssText = `
+          position: fixed;
+          top: 20px;
+          right: 20px;
+          background: #A30058;
+          color: white;
+          padding: 16px 24px;
+          border-radius: 8px;
+          font-weight: 500;
+          z-index: 10000;
+          animation: slideIn 0.3s ease;
+        `;
+        document.body.appendChild(message);
+        
+        setTimeout(() => {
+          message.style.opacity = '0';
+          setTimeout(() => message.remove(), 300);
+        }, 3000);
+        
+        // Update index.json
+        updateProjectIndex();
+      }
+    });
+
+    // Function to update index.json (would need backend implementation)
+    async function updateProjectIndex() {
+      // This would typically be handled by a build hook or serverless function
+      console.log('Index update triggered - implement with Netlify Functions');
+    }
+
+    // Add animation styles
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateX(100%);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      
+      .cms-toast {
+        transition: opacity 0.3s ease;
+      }
+      
+      /* Custom CMS styles */
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+      
+      [data-slate-editor] {
+        font-family: 'Poppins', sans-serif !important;
+      }
+    `;
+    document.head.appendChild(style);
+
+    // Netlify Identity integration
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>

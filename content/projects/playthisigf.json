@@ -1,0 +1,54 @@
+{
+  "published": true,
+  "pillar": "web",
+  "client": "PlayThis IGF (Gaming Event)",
+  "year": 2023,
+  "role": ["Web Design", "Front-end Development", "Animation"],
+  "duration": "5 weeks",
+  "tools": ["Figma", "HTML", "CSS", "JavaScript", "GSAP"],
+  "title_en": "PlayThis IGF — Event Website",
+  "title_pt": "PlayThis IGF — Website de Evento",
+  "summary_en": "Bold, animated event site for independent game festival — engaging interactions with fast performance.",
+  "summary_pt": "Site de evento animado e ousado para festival de jogos independentes — interações envolventes com performance rápida.",
+  "challenge_en": "Create excitement and energy for a gaming event while maintaining accessibility and performance across devices.",
+  "challenge_pt": "Criar emoção e energia para um evento de jogos mantendo acessibilidade e performance em todos dispositivos.",
+  "approach_en": "Vibrant color palette; smooth scroll animations; interactive game showcase; modular sections for easy updates; reduced-motion support.",
+  "approach_pt": "Paleta de cores vibrante; animações de scroll suaves; showcase interativo de jogos; seções modulares para atualizações fáceis; suporte a reduced-motion.",
+  "outcome_en": "High-energy site that generated strong pre-event buzz and served as the central hub for attendees.",
+  "outcome_pt": "Site de alta energia que gerou forte buzz pré-evento e serviu como hub central para participantes.",
+  "body_en": "## Event Identity\n\nTranslated the PlayThis IGF brand into a dynamic web experience with bold typography, bright accent colors, and playful interactions.\n\n## Game Showcase\n\nInteractive grid displaying featured indie games with hover effects, trailers, and direct links to developers. Filterable by category and platform.\n\n## Schedule & Information\n\nClear event schedule with session details, speaker bios, and venue information. Mobile-optimized for on-the-go attendees.",
+  "body_pt": "",
+  "cover": "/static/uploads/playthis-cover.jpg",
+  "gallery": [
+    {
+      "src": "/static/uploads/playthis-hero.jpg",
+      "caption": "Animated hero section"
+    },
+    {
+      "src": "/static/uploads/playthis-games.jpg",
+      "caption": "Interactive game showcase grid"
+    },
+    {
+      "src": "/static/uploads/playthis-schedule.jpg",
+      "caption": "Event schedule interface"
+    }
+  ],
+  "video": "/static/uploads/playthis-demo.mp4",
+  "metrics": [
+    {
+      "label": "Page Views",
+      "value": "45K+"
+    },
+    {
+      "label": "Avg. Session",
+      "value": "3m 42s"
+    },
+    {
+      "label": "Mobile Users",
+      "value": "71%"
+    }
+  ],
+  "testimonial": null,
+  "external_link": "",
+  "tags": ["event", "gaming", "animation", "web-design"]
+}

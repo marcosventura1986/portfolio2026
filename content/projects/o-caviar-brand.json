@@ -1,0 +1,50 @@
+{
+  "published": true,
+  "pillar": "graphic",
+  "client": "O Caviar (Premium Delicatessen)",
+  "year": 2024,
+  "role": ["Logo Design", "Brochure", "Tin Labels", "Business Card"],
+  "duration": "4 weeks",
+  "tools": ["Illustrator", "Photoshop", "InDesign"],
+  "title_en": "O Caviar — Brand & Packaging",
+  "title_pt": "O Caviar — Marca e Embalagem",
+  "summary_en": "High-contrast identity for a premium delicatessen — from logo to micro-grid tin labels.",
+  "summary_pt": "Identidade de alto contraste para um delicatessen premium — do logo às etiquetas de lata com micro-grid.",
+  "challenge_en": "Stand out in a crowded luxury food market while maintaining accessibility.",
+  "challenge_pt": "Destacar-se num mercado de comida de luxo saturado mantendo acessibilidade.",
+  "approach_en": "Bold black and white contrast, precise typography, micro-grid system for tin labels that works at small scale.",
+  "approach_pt": "Contraste ousado em preto e branco, tipografia precisa, sistema de micro-grid para etiquetas que funciona em pequena escala.",
+  "outcome_en": "Distinctive shelf presence with elegant, timeless packaging that communicates premium quality.",
+  "outcome_pt": "Presença distintiva nas prateleiras com embalagem elegante e atemporal que comunica qualidade premium.",
+  "body_en": "## Brand Identity\n\nO Caviar required a sophisticated visual language that would appeal to discerning customers while remaining approachable. The logo uses custom lettering with refined serifs and a monogram mark.\n\n## Packaging System\n\nThe tin label system employs a micro-grid structure that allows for flexibility across different product sizes while maintaining visual consistency. High-contrast black and white ensures legibility and premium perception.\n\n## Collateral\n\nBusiness cards and brochures extend the system with subtle textures and premium paper stocks.",
+  "body_pt": "",
+  "cover": "/static/uploads/o-caviar-brand-cover.jpg",
+  "gallery": [
+    {
+      "src": "/static/uploads/o-caviar-logo.jpg",
+      "caption": "Logo and monogram variations"
+    },
+    {
+      "src": "/static/uploads/o-caviar-tins.jpg",
+      "caption": "Tin label system with micro-grid"
+    },
+    {
+      "src": "/static/uploads/o-caviar-collateral.jpg",
+      "caption": "Business card and brochure"
+    }
+  ],
+  "video": "",
+  "metrics": [
+    {
+      "label": "Premium Perception",
+      "value": "+60%"
+    },
+    {
+      "label": "Sales Growth",
+      "value": "35%"
+    }
+  ],
+  "testimonial": null,
+  "external_link": "",
+  "tags": ["food", "branding", "packaging", "luxury"]
+}

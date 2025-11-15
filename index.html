@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventura Design — Graphic · Web · 3D | Minimal Design Studio</title>
+    <meta name="description" content="I craft clean visuals, fast websites, and refined 3D explorations — minimal by design. Based in Dublin, working globally.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- SEO & Meta -->
+    <link rel="canonical" href="https://venturadesign.com/">
+    <link rel="alternate" hreflang="en" href="https://venturadesign.com/">
+    <link rel="alternate" hreflang="pt-BR" href="https://venturadesign.com/pt/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ventura Design — Graphic · Web · 3D">
+    <meta property="og:description" content="I craft clean visuals, fast websites, and refined 3D explorations — minimal by design.">
+    <meta property="og:image" content="/assets/og/home.jpg">
+    <meta property="og:url" content="https://venturadesign.com/">
+    <meta property="og:site_name" content="Ventura Design">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ventura Design — Graphic · Web · 3D">
+    <meta name="twitter:description" content="I craft clean visuals, fast websites, and refined 3D explorations — minimal by design.">
+    <meta name="twitter:image" content="/assets/og/home.jpg">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="manifest" href="/manifest.webmanifest">
+    
+    <!-- Critical CSS -->
+    <style>
+        :root{--bg:#0B0B0B;--charcoal-1:#141414;--charcoal-2:#1E1E1E;--border:#232323;--ink-quiet:#606D6A;--text:#FFFFFF;--text-dim:#D3D3D3;--pink:#FFB5DD;--mint:#7FFFCA;--magenta:#A30058;--focus:#7FFFCA;--link:#FFFFFF;--link-hover:#7FFFCA;--max-w:1320px;--radius:16px;--card-gap:24px;--ease:cubic-bezier(0.2,0.8,0.2,1);--dur-quick:180ms;--dur:260ms}*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--text);font-family:'Poppins',sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+    </style>
+</head>
+<body>
+    <!-- Skip to content -->
+    <a href="#main" class="skip-link">Skip to content</a>
+    
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="header__inner">
+            <a href="/" class="header__logo" aria-label="Ventura Design home">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="40" height="40" fill="var(--text)"/>
+                    <path d="M10 10L20 30L30 10" stroke="var(--bg)" stroke-width="2"/>
+                </svg>
+            </a>
+            
+            <nav class="nav" aria-label="Main navigation">
+                <ul class="nav__list">
+                    <li><a href="#work" data-i18n-key="nav.work">Work</a></li>
+                    <li><a href="#cases" data-i18n-key="nav.cases">Cases</a></li>
+                    <li><a href="#testimonials" data-i18n-key="nav.testimonials">Testimonials</a></li>
+                    <li><a href="#social" data-i18n-key="nav.social">Social</a></li>
+                    <li><a href="#contact" data-i18n-key="nav.contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header__actions">
+                <button class="lang-toggle" aria-label="Change language" data-current="en">
+                    <span>EN</span>
+                    <svg width="12" height="8" viewBox="0 0 12 8" fill="none">
+                        <path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+                
+                <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Language dropdown -->
+        <div class="lang-dropdown" hidden>
+            <button data-lang="en">English</button>
+            <button data-lang="pt-BR">Português (BR)</button>
+        </div>
+    </header>
+    
+    <!-- Mobile menu overlay -->
+    <div class="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile navigation" hidden>
+        <nav>
+            <ul>
+                <li><a href="#work" data-i18n-key="nav.work">Work</a></li>
+                <li><a href="#cases" data-i18n-key="nav.cases">Cases</a></li>
+                <li><a href="#testimonials" data-i18n-key="nav.testimonials">Testimonials</a></li>
+                <li><a href="#social" data-i18n-key="nav.social">Social</a></li>
+                <li><a href="#contact" data-i18n-key="nav.contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- Global background shapes layer -->
+    <div class="global-background">
+        <svg class="background-layer" aria-hidden="true"></svg>
+    </div>
+    
+    <main id="main">
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title" data-reveal>
+                        Ventura Design — <span class="accent-pink">Graphic</span> · <span class="accent-mint">Web</span> · <span class="accent-magenta">3D</span>
+                    </h1>
+                    <p class="hero__subtitle" data-reveal data-reveal-delay="100" data-i18n-key="hero.subtitle">
+                        I craft clean visuals, fast websites, and refined 3D explorations — minimal by design.
+                    </p>
+                    <a href="#work" class="hero__cta" data-reveal data-reveal-delay="200" data-i18n-key="hero.cta">
+                        Explore the work
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 10H15M15 10L10 5M15 10L10 15" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="hero__visual">
+                    <picture>
+                        <source srcset="/static/uploads/hero.avif" type="image/avif">
+                        <source srcset="/static/uploads/hero.webp" type="image/webp">
+                        <img src="/static/uploads/hero.jpg" alt="Featured work" width="800" height="600" loading="eager">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Work Section (3 Pillars) -->
+        <section id="work" class="work">
+            <div class="container">
+                <h2 class="section-title" data-reveal data-i18n-key="work.title">What I Do</h2>
+                <div class="pillars">
+                    <article class="pillar pillar--graphic" data-reveal>
+                        <div class="pillar__icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <circle cx="24" cy="24" r="20" stroke="var(--pink)" stroke-width="2"/>
+                                <path d="M16 24L22 30L32 18" stroke="var(--pink)" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="pillar__title" data-i18n-key="work.graphic.title">Graphic</h3>
+                        <p class="pillar__desc" data-i18n-key="work.graphic.desc">
+                            Identity, systems, and visual narratives that stick.
+                        </p>
+                        <a href="#cases" class="pillar__link" data-filter="graphic" data-i18n-key="work.cta">
+                            View projects
+                        </a>
+                    </article>
+                    
+                    <article class="pillar pillar--web" data-reveal data-reveal-delay="100">
+                        <div class="pillar__icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect x="12" y="12" width="24" height="24" rx="4" stroke="var(--mint)" stroke-width="2"/>
+                                <circle cx="24" cy="24" r="6" stroke="var(--mint)" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="pillar__title" data-i18n-key="work.web.title">Web</h3>
+                        <p class="pillar__desc" data-i18n-key="work.web.desc">
+                            Lean UX, clean UI, fast builds — aesthetics with purpose.
+                        </p>
+                        <a href="#cases" class="pillar__link" data-filter="web" data-i18n-key="work.cta">
+                            View projects
+                        </a>
+                    </article>
+                    
+                    <article class="pillar pillar--3d" data-reveal data-reveal-delay="200">
+                        <div class="pillar__icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M24 8L38 16V32L24 40L10 32V16L24 8Z" stroke="var(--magenta)" stroke-width="2"/>
+                                <path d="M24 8L38 16L24 24L10 16L24 8Z" stroke="var(--magenta)" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="pillar__title" data-i18n-key="work.3d.title">3D</h3>
+                        <p class="pillar__desc" data-i18n-key="work.3d.desc">
+                            Product, motion, and form studies — crisp and performant.
+                        </p>
+                        <a href="#cases" class="pillar__link" data-filter="3d" data-i18n-key="work.cta">
+                            View projects
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Cases Section -->
+        <section id="cases" class="cases">
+            <div class="container">
+                <div class="cases__header">
+                    <h2 class="section-title" data-reveal data-i18n-key="cases.title">Featured Work</h2>
+                    <div class="filter-controls" data-reveal>
+                        <button class="filter-btn active" data-filter="all" data-i18n-key="filter.all">All</button>
+                        <button class="filter-btn" data-filter="graphic" data-i18n-key="filter.graphic">Graphic</button>
+                        <button class="filter-btn" data-filter="web" data-i18n-key="filter.web">Web</button>
+                        <button class="filter-btn" data-filter="3d" data-i18n-key="filter.3d">3D</button>
+                    </div>
+                </div>
+                
+                <div class="cases__grid" id="catalogue">
+                    <!-- Projects will be loaded here dynamically -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title" data-reveal data-i18n-key="testimonials.title">What Clients Say</h2>
+                <div class="testimonials__grid">
+                    <blockquote class="testimonial" data-reveal>
+                        <p class="testimonial__quote" data-i18n-key="testimonial1.quote">
+                            "Ventura transformed our brand identity into something truly memorable. Fast, professional, and creative."
+                        </p>
+                        <footer class="testimonial__author">
+                            <img src="/static/uploads/avatar1.jpg" alt="Sarah Chen" width="48" height="48" loading="lazy">
+                            <div>
+                                <cite class="testimonial__name">Sarah Chen</cite>
+                                <span class="testimonial__role">Creative Director, Nectar</span>
+                            </div>
+                        </footer>
+                    </blockquote>
+                    
+                    <blockquote class="testimonial" data-reveal data-reveal-delay="100">
+                        <p class="testimonial__quote" data-i18n-key="testimonial2.quote">
+                            "The 3D work was exceptional. Clean, modern, and exactly what we needed for our product launch."
+                        </p>
+                        <footer class="testimonial__author">
+                            <img src="/static/uploads/avatar2.jpg" alt="Marcus Rodriguez" width="48" height="48" loading="lazy">
+                            <div>
+                                <cite class="testimonial__name">Marcus Rodriguez</cite>
+                                <span class="testimonial__role">Founder, SumoQubes</span>
+                            </div>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Social Section -->
+        <section id="social" class="social">
+            <div class="container">
+                <h2 class="section-title" data-reveal data-i18n-key="social.title">Find Me Online</h2>
+                <div class="social__grid">
+                    <a href="https://behance.net/venturadesign" class="social__link" aria-label="Behance" data-reveal>
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect x="6" y="10" width="8" height="12" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="22" cy="16" r="6" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </a>
+                    <a href="https://artstation.com/venturadesign" class="social__link" aria-label="ArtStation" data-reveal data-reveal-delay="50">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M8 22L16 8L24 22H8Z" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </a>
+                    <a href="https://vimeo.com/venturadesign" class="social__link" aria-label="Vimeo" data-reveal data-reveal-delay="100">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M8 16L12 20L16 12L20 18L24 14" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/venturadesign" class="social__link" aria-label="LinkedIn" data-reveal data-reveal-delay="150">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect x="8" y="12" width="4" height="12" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M16 16C16 14 17 12 20 12C23 12 24 14 24 16V24" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </a>
+                    <a href="https://instagram.com/venturadesign" class="social__link" aria-label="Instagram" data-reveal data-reveal-delay="200">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect x="8" y="8" width="16" height="16" rx="4" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="16" cy="16" r="4" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </a>
+                    <a href="https://itch.io/venturadesign" class="social__link" aria-label="Itch.io" data-reveal data-reveal-delay="250">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <circle cx="12" cy="16" r="2" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="20" cy="16" r="2" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact__content">
+                    <h2 class="section-title" data-reveal data-i18n-key="contact.title">Got a project in mind? Let's talk.</h2>
+                    <div class="contact__actions" data-reveal>
+                        <a href="mailto:hello@venturadesign.com?subject=Project%20Inquiry%20—%20Ventura%20Design" 
+                           class="btn btn--primary" data-i18n-key="contact.cta">
+                            Start a conversation
+                        </a>
+                        <a href="#" class="btn btn--secondary" data-i18n-key="contact.schedule">
+                            Schedule a call
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <h4 data-i18n-key="footer.work">Work</h4>
+                    <ul>
+                        <li><a href="#cases" data-filter="graphic" data-i18n-key="footer.graphic">Graphic</a></li>
+                        <li><a href="#cases" data-filter="web" data-i18n-key="footer.web">Web</a></li>
+                        <li><a href="#cases" data-filter="3d" data-i18n-key="footer.3d">3D</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col footer__col--social">
+                    <ul>
+                        <li>
+                            <a href="https://behance.net/venturadesign" aria-label="Behance">
+                                <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+                                    <rect x="8" y="12" width="6" height="8" stroke="currentColor" stroke-width="1.5"/>
+                                    <circle cx="20" cy="16" r="4" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://artstation.com/venturadesign" aria-label="ArtStation">
+                                <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+                                    <path d="M8 22L16 8L24 22H8Z" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://vimeo.com/venturadesign" aria-label="Vimeo">
+                                <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+                                    <path d="M8 16L12 20L16 12L20 18L24 14" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/venturadesign" aria-label="LinkedIn">
+                                <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+                                    <rect x="8" y="12" width="4" height="12" stroke="currentColor" stroke-width="1.5"/>
+                                    <path d="M16 16C16 14 17 12 20 12C23 12 24 14 24 16V24" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/venturadesign" aria-label="Instagram">
+                                <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+                                    <rect x="8" y="8" width="16" height="16" rx="4" stroke="currentColor" stroke-width="1.5"/>
+                                    <circle cx="16" cy="16" r="4" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4 data-i18n-key="footer.studio">Studio</h4>
+                    <ul>
+                        <li><a href="#hero" data-i18n-key="footer.about">About</a></li>
+                        <li><a href="#contact" data-i18n-key="footer.contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <svg width="24" height="24" viewBox="0 0 40 40" fill="none" class="footer__logo">
+                    <rect width="24" height="24" fill="var(--text-dim)"/>
+                    <path d="M6 6L12 18L18 6" stroke="var(--bg)" stroke-width="1.5"/>
+                </svg>
+                <p>&copy; 2025 Ventura Design. All rights reserved.</p>
+                <a href="/privacy" data-i18n-key="footer.privacy">Privacy</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Toast container -->
+    <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+    
+    <!-- Scripts -->
+    <script src="assets/js/main.js" defer></script>
+    
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Ventura Design",
+        "url": "https://venturadesign.com",
+        "logo": "https://venturadesign.com/assets/logo.svg",
+        "description": "Minimal design studio specializing in graphic design, web development, and 3D visualization",
+        "sameAs": [
+            "https://behance.net/venturadesign",
+            "https://artstation.com/venturadesign",
+            "https://linkedin.com/in/venturadesign"
+        ],
+        "founder": {
+            "@type": "Person",
+            "name": "Marcos Ventura",
+            "jobTitle": "Creative Director"
+        }
+    }
+    </script>
+</body>
+</html>

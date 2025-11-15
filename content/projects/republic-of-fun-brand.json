@@ -1,0 +1,41 @@
+{
+  "published": true,
+  "pillar": "graphic",
+  "client": "Republic of Fun (Creative Studio)",
+  "year": 2023,
+  "role": ["Logo Design", "Visual Identity", "Stationery", "Brand Guidelines"],
+  "duration": "5 weeks",
+  "tools": ["Illustrator", "InDesign"],
+  "title_en": "Republic of Fun — Studio Identity",
+  "title_pt": "Republic of Fun — Identidade de Estúdio",
+  "summary_en": "Minimal studio identity that balances professionalism with creative energy.",
+  "summary_pt": "Identidade de estúdio minimalista que equilibra profissionalismo com energia criativa.",
+  "challenge_en": "Create an identity that feels both serious and playful — appealing to corporate clients while showcasing creative capability.",
+  "challenge_pt": "Criar uma identidade que seja séria e divertida — atraente para clientes corporativos enquanto mostra capacidade criativa.",
+  "approach_en": "Clean geometric wordmark with subtle playful details; restrained color system with moments of vibrancy; professional execution.",
+  "approach_pt": "Wordmark geométrico limpo com detalhes sutilmente divertidos; sistema de cores contido com momentos de vibração; execução profissional.",
+  "outcome_en": "Versatile identity system that positions the studio as both reliable and innovative.",
+  "outcome_pt": "Sistema de identidade versátil que posiciona o estúdio como confiável e inovador.",
+  "body_en": "## Brand Strategy\n\nRepublic of Fun needed to walk a fine line: appear professional enough for corporate work while maintaining the creative spark that defines their culture.\n\n## Visual Language\n\nThe logo uses clean geometric forms with subtle rounded corners — serious but approachable. The color system is primarily black and white with strategic pops of vibrant accent colors.\n\n## Applications\n\nWe developed a complete stationery suite and brand guidelines that ensure consistency across touchpoints while allowing creative flexibility in project work.",
+  "body_pt": "",
+  "cover": "/static/uploads/republic-brand-cover.jpg",
+  "gallery": [
+    {
+      "src": "/static/uploads/republic-logo.jpg",
+      "caption": "Logo and visual identity system"
+    },
+    {
+      "src": "/static/uploads/republic-stationery.jpg",
+      "caption": "Stationery suite"
+    },
+    {
+      "src": "/static/uploads/republic-guidelines.jpg",
+      "caption": "Brand guidelines excerpt"
+    }
+  ],
+  "video": "",
+  "metrics": [],
+  "testimonial": null,
+  "external_link": "",
+  "tags": ["studio", "branding", "minimal", "identity"]
+}
