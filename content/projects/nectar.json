@@ -1,24 +1,27 @@
 {
-  "published": true,
-  "pillar": "graphic",
-  "client": "Nectar (Honey-based Skincare)",
-  "year": 2025,
-  "role": ["Logo Design", "Brochure", "Christmas Cards", "Event Banners", "3D Kiosk"],
-  "duration": "6 weeks",
-  "tools": ["Illustrator", "InDesign", "Blender"],
-  "title_en": "Nectar — Brand & Event System",
-  "title_pt": "Nectar — Sistema de Marca e Eventos",
-  "summary_en": "A warm, modern identity for a honey-based skincare line — scaled from print to event presence.",
-  "summary_pt": "Uma identidade moderna e acolhedora para uma linha de cosméticos à base de mel — escalada de impressos a presença em eventos.",
-  "challenge_en": "Signal 'natural + premium' without clichés.",
-  "challenge_pt": "Sinalizar 'natural + premium' sem clichês.",
   "approach_en": "Geometric bee/honey cues, soft contrast palette, modular print toolkit; event kiosk explored in 3D for fast approval.",
-  "approach_pt": "Referências geométricas de abelha/mel, paleta de contraste suave, kit modular de impressão; quiosque de evento explorado em 3D para aprovação rápida.",
-  "outcome_en": "Cohesive touchpoints with strong shelf and event visibility.",
-  "outcome_pt": "Pontos de contato coesos com forte visibilidade em prateleiras e eventos.",
-  "body_en": "## Design Process\n\nThe Nectar brand required a delicate balance between natural authenticity and premium positioning. The logo combines geometric hexagon patterns reminiscent of honeycomb structure with clean, modern typography.\n\n## Print Collateral\n\nWe developed a comprehensive print system including product brochures, seasonal Christmas cards, and large-format event banners. Each piece uses the warm honey-gold color palette with strategic white space to convey premium quality.\n\n## 3D Event Kiosk\n\nTo visualize the event presence before production, we created detailed 3D renders of the brand kiosk. This allowed the client to approve spatial design and material choices with confidence.",
+  "challenge_pt": "Sinalizar 'natural + premium' sem clichês.",
   "body_pt": "",
-  "cover": "/static/uploads/nectar-cover.jpg",
+  "summary_en": "A warm, modern identity for a honey-based skincare line — scaled from print to event presence.",
+  "metrics": [
+    {
+      "label": "Brand Recognition Increase",
+      "value": "45%"
+    },
+    {
+      "label": "Event Engagement",
+      "value": "3x"
+    }
+  ],
+  "challenge_en": "Signal 'natural + premium' without clichés.",
+  "body_en": "## Design Process\n\nThe Nectar brand required a delicate balance between natural authenticity and premium positioning. The logo combines geometric hexagon patterns reminiscent of honeycomb structure with clean, modern typography.\n\n## Print Collateral\n\nWe developed a comprehensive print system including product brochures, seasonal Christmas cards, and large-format event banners. Each piece uses the warm honey-gold color palette with strategic white space to convey premium quality.\n\n## 3D Event Kiosk\n\nTo visualize the event presence before production, we created detailed 3D renders of the brand kiosk. This allowed the client to approve spatial design and material choices with confidence.",
+  "pillar": "graphic",
+  "title_pt": "Nectar — Sistema de Marca e Eventos",
+  "client": "Nectar (Honey-based Skincare)",
+  "published": false,
+  "external_link": "",
+  "title_en": "Nectar — Brand & Event System",
+  "outcome_pt": "Pontos de contato coesos com forte visibilidade em prateleiras e eventos.",
   "gallery": [
     {
       "src": "/static/uploads/nectar-logo.jpg",
@@ -33,23 +36,35 @@
       "caption": "3D render of event kiosk"
     }
   ],
-  "video": "",
-  "metrics": [
-    {
-      "label": "Brand Recognition Increase",
-      "value": "45%"
-    },
-    {
-      "label": "Event Engagement",
-      "value": "3x"
-    }
+  "duration": "6 weeks",
+  "role": [
+    "Logo Design",
+    "Brochure",
+    "Christmas Cards",
+    "Event Banners",
+    "3D Kiosk"
   ],
+  "outcome_en": "Cohesive touchpoints with strong shelf and event visibility.",
+  "cover": "/static/uploads/nectar-cover.jpg",
+  "tags": [
+    "skincare",
+    "branding",
+    "event",
+    "3d-kiosk"
+  ],
+  "video": "",
+  "tools": [
+    "Illustrator",
+    "InDesign",
+    "Blender"
+  ],
+  "approach_pt": "Referências geométricas de abelha/mel, paleta de contraste suave, kit modular de impressão; quiosque de evento explorado em 3D para aprovação rápida.",
+  "year": 2025,
+  "summary_pt": "Uma identidade moderna e acolhedora para uma linha de cosméticos à base de mel — escalada de impressos a presença em eventos.",
   "testimonial": {
     "author": "Sarah Mitchell",
     "role": "Marketing Director",
     "company": "Nectar Skincare",
     "quote": "Ventura transformed our brand identity into something truly memorable. Fast, professional, and creative."
-  },
-  "external_link": "",
-  "tags": ["skincare", "branding", "event", "3d-kiosk"]
+  }
 }
