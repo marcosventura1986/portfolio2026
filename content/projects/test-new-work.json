@@ -1,0 +1,42 @@
+{
+  "approach_en": "My approach",
+  "challenge_pt": "Meu Desafio",
+  "body_pt": "Às vezes, tudo o que precisamos para começar o dia é uma **palavra amável ou um pensamento inspirador.** Uma mensagem matinal pode nos ajudar a colocar a mente no lugar ou encontrar coragem para enfrentar os **desafios diários**. Selecionamos algumas frases de **bom dia especial** para iluminar o dia de pessoas queridas!",
+  "summary_en": "nable Identity in your Netlify dashboard (Site Settings → Identity → Enable Identity)\n",
+  "challenge_en": "My Challenge",
+  "body_en": "Enable Git Gateway (Identity → Services → Git Gateway → Enable)\n\nInvite yourself as a user (Identity → Invite users)\n\nCheck your email and accept the invitation\n\nVisit yoursite.netlify.app/admin/ to log in",
+  "pillar": "3d",
+  "title_pt": "TESTE NOVO TRABALHO",
+  "client": "Myself",
+  "published": true,
+  "title_en": "TEST NEW WORK",
+  "outcome_pt": "Meu Outcome",
+  "gallery": [
+    {
+      "src": "/static/uploads/qubes-brand-guide_bg.jpg",
+      "caption": "test gallery"
+    },
+    {
+      "src": "/static/uploads/p_0dc91706-4675-11ef-ad9f-16f3def6eed9_wm.png",
+      "caption": "test gallery 2"
+    }
+  ],
+  "duration": "My Duration",
+  "role": [
+    "MyRole"
+  ],
+  "outcome_en": "My Outcome",
+  "cover": "/static/uploads/sumo-qubes-pallete.png",
+  "tools": [
+    "MyTools"
+  ],
+  "approach_pt": "Meu approach",
+  "year": 2020,
+  "summary_pt": "Now I'll fix this by adding the required Netlify Identity widget script and initialization code to your index.html. \n",
+  "testimonial": {
+    "author": "ME",
+    "role": " Myself",
+    "company": "And I",
+    "quote": "He is lit!"
+  }
+}
