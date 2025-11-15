@@ -307,6 +307,24 @@ ${galleryHtml}
 // Main execution
 console.log('🔨 Generating project pages from JSON...');
 
+// Clean up old generated files (keep manually created ones by checking against JSON files)
+const existingHtmlFiles = fs.readdirSync(OUTPUT_DIR).filter(f => f.endsWith('.html'));
+const jsonFiles = fs.readdirSync(PROJECTS_DIR).filter(f => f.endsWith('.json'));
+const jsonSlugs = jsonFiles.map(f => f.replace('.json', ''));
+
+existingHtmlFiles.forEach(htmlFile => {
+  const slug = htmlFile.replace('.html', '');
+  // Only delete if corresponding JSON doesn't exist or is unpublished
+  const jsonPath = path.join(PROJECTS_DIR, `${slug}.json`);
+  if (fs.existsSync(jsonPath)) {
+    const data = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+    if (data.published === false) {
+      fs.unlinkSync(path.join(OUTPUT_DIR, htmlFile));
+      console.log(`🗑️  Deleted ${htmlFile} (unpublished)`);
+    }
+  }
+});
+
 const files = fs.readdirSync(PROJECTS_DIR).filter(f => f.endsWith('.json'));
 
 files.forEach(file => {
