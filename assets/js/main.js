@@ -768,3 +768,63 @@
   document.head.appendChild(style);
 
 })();
+
+// Click anywhere to rearrange shapes
+document.addEventListener('click', function(e) {
+  if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON') return;
+  
+  const layer = document.querySelector('.background-layer');
+  if (!layer) return;
+  
+  const shapes = layer.querySelectorAll('circle, rect, polygon');
+  shapes.forEach(function(shape, i) {
+    const newX = 100 + Math.random() * 800;
+    const newY = 100 + Math.random() * 800;
+    
+    let currentX, currentY;
+    if (shape.tagName === 'circle') {
+      currentX = parseFloat(shape.getAttribute('cx'));
+      currentY = parseFloat(shape.getAttribute('cy'));
+    } else if (shape.tagName === 'rect') {
+      currentX = parseFloat(shape.getAttribute('x'));
+      currentY = parseFloat(shape.getAttribute('y'));
+    } else if (shape.tagName === 'polygon') {
+      const pts = shape.getAttribute('points').split(' ')[0].split(',');
+      currentX = parseFloat(pts[0]);
+      currentY = parseFloat(pts[1]);
+    }
+    
+    const duration = 1500;
+    const startTime = Date.now();
+    
+    const animate = function() {
+      const elapsed = Date.now() - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const eased = progress < 0.5 ? 2 * progress * progress : 1 - Math.pow(-2 * progress + 2, 2) / 2;
+      
+      const x = currentX + (newX - currentX) * eased;
+      const y = currentY + (newY - currentY) * eased;
+      
+      if (shape.tagName === 'circle') {
+        shape.setAttribute('cx', x);
+        shape.setAttribute('cy', y);
+      } else if (shape.tagName === 'rect') {
+        shape.setAttribute('x', x);
+        shape.setAttribute('y', y);
+      } else if (shape.tagName === 'polygon') {
+        const pts = shape.getAttribute('points').split(' ');
+        const dx = x - parseFloat(pts[0].split(',')[0]);
+        const dy = y - parseFloat(pts[0].split(',')[1]);
+        const newPts = pts.map(function(p) {
+          const xy = p.split(',');
+          return (parseFloat(xy[0]) + dx) + ',' + (parseFloat(xy[1]) + dy);
+        }).join(' ');
+        shape.setAttribute('points', newPts);
+      }
+      
+      if (progress < 1) requestAnimationFrame(animate);
+    };
+    
+    setTimeout(function() { requestAnimationFrame(animate); }, i * 30);
+  });
+});
