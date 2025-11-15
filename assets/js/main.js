@@ -39,7 +39,7 @@
       'filter.web': 'Web',
       'filter.3d': '3D',
       'testimonials.title': 'What Clients Say',
-      'testimonial1.quote': 'Ventura transformed our brand identity into something truly memorable. Fast, professional, and creative.',
+      'testimonial1.quote': 'All About Nectar has been working with Marcos for the past two years. It has been a pleasure as all design jobs are completed quickly with high level of quality and creativity. It\'s rare the first draft is not on point and makes it all very easy.',
       'testimonial2.quote': 'The 3D work was exceptional. Clean, modern, and exactly what we needed for our product launch.',
       'social.title': 'Find Me Online',
       'contact.title': 'Got a project in mind? Let\'s talk.',

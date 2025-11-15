@@ -184,12 +184,16 @@
                     </a>
                 </div>
                 <div class="hero__visual">
-                    <picture>
-                        <source srcset="/static/uploads/hero.avif" type="image/avif">
-                        <source srcset="/static/uploads/hero.webp" type="image/webp">
-                        <img src="/static/uploads/hero.jpg" alt="Featured work" width="800" height="600" loading="eager">
-                    </picture>
+                    <img src="/static/uploads/hero.jpg" alt="Featured work" width="800" height="600" loading="eager">
                 </div>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <svg width="24" height="40" viewBox="0 0 24 40" fill="none">
+                    <rect x="1" y="1" width="22" height="38" rx="11" stroke="currentColor" stroke-width="2"/>
+                    <circle class="scroll-dot" cx="12" cy="12" r="3" fill="currentColor"/>
+                </svg>
             </div>
         </section>
         
@@ -275,13 +279,17 @@
                 <div class="testimonials__grid">
                     <blockquote class="testimonial" data-reveal>
                         <p class="testimonial__quote" data-i18n-key="testimonial1.quote">
-                            "Ventura transformed our brand identity into something truly memorable. Fast, professional, and creative."
+                            "All About Nectar has been working with Marcos for the past two years. It has been a pleasure as all design jobs are completed quickly with high level of quality and creativity. It's rare the first draft is not on point and makes it all very easy."
                         </p>
                         <footer class="testimonial__author">
-                            <img src="/static/uploads/avatar1.jpg" alt="Sarah Chen" width="48" height="48" loading="lazy">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" class="testimonial__avatar-icon">
+                                <circle cx="24" cy="24" r="23" stroke="var(--text-dim)" stroke-width="2"/>
+                                <circle cx="24" cy="18" r="6" fill="var(--text-dim)"/>
+                                <path d="M12 38C12 32 16 28 24 28C32 28 36 32 36 38" stroke="var(--text-dim)" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
                             <div>
-                                <cite class="testimonial__name">Sarah Chen</cite>
-                                <span class="testimonial__role">Creative Director, Nectar</span>
+                                <cite class="testimonial__name">Ian Mernagh</cite>
+                                <span class="testimonial__role">All About Nectar</span>
                             </div>
                         </footer>
                     </blockquote>
@@ -291,7 +299,11 @@
                             "The 3D work was exceptional. Clean, modern, and exactly what we needed for our product launch."
                         </p>
                         <footer class="testimonial__author">
-                            <img src="/static/uploads/avatar2.jpg" alt="Marcus Rodriguez" width="48" height="48" loading="lazy">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" class="testimonial__avatar-icon">
+                                <circle cx="24" cy="24" r="23" stroke="var(--text-dim)" stroke-width="2"/>
+                                <circle cx="24" cy="18" r="6" fill="var(--text-dim)"/>
+                                <path d="M12 38C12 32 16 28 24 28C32 28 36 32 36 38" stroke="var(--text-dim)" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
                             <div>
                                 <cite class="testimonial__name">Marcus Rodriguez</cite>
                                 <span class="testimonial__role">Founder, SumoQubes</span>

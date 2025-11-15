@@ -342,7 +342,7 @@ img {
 /* Hero */
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 95vh;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -350,8 +350,8 @@ img {
 
 .hero .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 4rem;
   align-items: center;
 }
 
@@ -404,11 +404,51 @@ img {
 
 .hero__visual {
   position: relative;
+  height: 650px;
 }
 
 .hero__visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: var(--radius);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+}
+
+/* Scroll Indicator */
+.scroll-indicator {
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--text-dim);
+  cursor: pointer;
+  transition: color var(--dur-quick);
+  opacity: 0.6;
+}
+
+.scroll-indicator:hover {
+  color: var(--mint);
+  opacity: 1;
+}
+
+.scroll-indicator svg {
+  display: block;
+}
+
+.scroll-dot {
+  animation: scrollDot 2s ease-in-out infinite;
+}
+
+@keyframes scrollDot {
+  0%, 100% {
+    cy: 12;
+    opacity: 1;
+  }
+  50% {
+    cy: 28;
+    opacity: 0.5;
+  }
 }
 
 /* Work Section */
@@ -531,6 +571,40 @@ img {
   border-color: var(--text);
 }
 
+/* Pillar-specific filter button colors */
+.filter-btn[data-filter="graphic"]:hover {
+  border-color: var(--pink);
+  color: var(--pink);
+}
+
+.filter-btn[data-filter="graphic"].active {
+  background: var(--pink);
+  color: var(--bg);
+  border-color: var(--pink);
+}
+
+.filter-btn[data-filter="web"]:hover {
+  border-color: var(--mint);
+  color: var(--mint);
+}
+
+.filter-btn[data-filter="web"].active {
+  background: var(--mint);
+  color: var(--bg);
+  border-color: var(--mint);
+}
+
+.filter-btn[data-filter="3d"]:hover {
+  border-color: var(--magenta);
+  color: var(--magenta);
+}
+
+.filter-btn[data-filter="3d"].active {
+  background: var(--magenta);
+  color: var(--text);
+  border-color: var(--magenta);
+}
+
 .cases__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -628,10 +702,16 @@ img {
   gap: 1rem;
 }
 
-.testimonial__author img {
+.testimonial__author img,
+.testimonial__avatar-icon {
   width: 48px;
   height: 48px;
   border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.testimonial__avatar-icon {
+  background: var(--charcoal-2);
 }
 
 .testimonial__name {
@@ -922,13 +1002,23 @@ img {
    ===================================================== */
 
 .project-page {
-  padding-top: 80px;
+  padding-top: 0;
 }
 
 .project-hero {
   position: relative;
   width: 100%;
-  margin-bottom: 4rem;
+  margin-bottom: 0;
+}
+
+.project-hero__link {
+  display: block;
+  cursor: pointer;
+  transition: opacity var(--dur-quick);
+}
+
+.project-hero__link:hover {
+  opacity: 0.9;
 }
 
 .project-hero__image {
@@ -936,13 +1026,18 @@ img {
   height: 60vh;
   min-height: 400px;
   overflow: hidden;
-  border-radius: var(--radius);
+  border-radius: 0;
 }
 
 .project-hero__image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform var(--dur);
+}
+
+.project-hero__link:hover .project-hero__image img {
+  transform: scale(1.02);
 }
 
 .project-content {
