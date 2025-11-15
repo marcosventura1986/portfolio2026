@@ -1,10 +1,67 @@
-<!DOCTYPE html>
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+
+const PROJECTS_DIR = path.join(__dirname, '../content/projects');
+const OUTPUT_DIR = path.join(__dirname, '../project');
+
+// Ensure output directory exists
+if (!fs.existsSync(OUTPUT_DIR)) {
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+}
+
+function generateProjectPage(slug, data) {
+  const pillarClass = data.pillar || 'graphic';
+  const pillarLabel = pillarClass.charAt(0).toUpperCase() + pillarClass.slice(1);
+  
+  // Build gallery HTML
+  let galleryHtml = '';
+  if (data.gallery && data.gallery.length > 0) {
+    galleryHtml = `
+                <!-- Gallery -->
+                <section class="project-gallery">
+${data.gallery.map(item => `                    <figure>
+                        <img src="${item.src}" alt="${item.caption || ''}" width="1200" height="800" loading="lazy">
+                        <figcaption>${item.caption || ''}</figcaption>
+                    </figure>`).join('\n')}
+                </section>`;
+  }
+  
+  // Build metrics HTML
+  let metricsHtml = '';
+  if (data.metrics && data.metrics.length > 0) {
+    metricsHtml = `
+                    <div class="project-metrics">
+${data.metrics.map(m => `                        <div class="metric">
+                            <span class="metric__value">${m.value}</span>
+                            <span class="metric__label">${m.label}</span>
+                        </div>`).join('\n')}
+                    </div>`;
+  }
+  
+  // Build testimonial HTML
+  let testimonialHtml = '';
+  if (data.testimonial && data.testimonial.quote) {
+    testimonialHtml = `
+                    <blockquote class="project-testimonial">
+                        <p>"${data.testimonial.quote}"</p>
+                        <footer>
+                            <cite>
+                                <strong>${data.testimonial.author || ''}</strong>
+                                <span>${data.testimonial.role || ''}${data.testimonial.company ? ', ' + data.testimonial.company : ''}</span>
+                            </cite>
+                        </footer>
+                    </blockquote>`;
+  }
+  
+  const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Republic of Fun — Studio Identity | Ventura Design</title>
-    <meta name="description" content="Minimal studio identity that balances professionalism with creative energy.">
+    <title>${data.title_en || slug} | Ventura Design</title>
+    <meta name="description" content="${data.summary_en || ''}">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,12 +69,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     
     <!-- SEO & Meta -->
-    <link rel="canonical" href="https://venturadesign.com/project/republic-of-fun-brand.html">
+    <link rel="canonical" href="https://venturadesign.com/project/${slug}.html">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Republic of Fun — Studio Identity">
-    <meta property="og:description" content="Minimal studio identity that balances professionalism with creative energy.">
-    <meta property="og:image" content="/static/uploads/republic-brand-cover.jpg">
-    <meta property="og:url" content="https://venturadesign.com/project/republic-of-fun-brand.html">
+    <meta property="og:title" content="${data.title_en || slug}">
+    <meta property="og:description" content="${data.summary_en || ''}">
+    <meta property="og:image" content="${data.cover || ''}">
+    <meta property="og:url" content="https://venturadesign.com/project/${slug}.html">
     <meta name="twitter:card" content="summary_large_image">
     
     <!-- Styles -->
@@ -91,11 +148,11 @@
     <main id="main" class="project-page">
         <!-- Hero -->
         <section class="project-hero">
-            
+            ${data.external_link ? `<a href="${data.external_link}" target="_blank" rel="noopener noreferrer" class="project-hero__link">` : ''}
             <div class="project-hero__image">
-                <img src="/static/uploads/republic-brand-cover.jpg" alt="Republic of Fun — Studio Identity" width="1920" height="1080" loading="eager">
+                <img src="${data.cover || ''}" alt="${data.title_en || ''}" width="1920" height="1080" loading="eager">
             </div>
-            
+            ${data.external_link ? `</a>` : ''}
         </section>
         
         <!-- Content -->
@@ -103,88 +160,71 @@
             <div class="container container--narrow">
                 <!-- Title -->
                 <header class="project-header">
-                    <h1>Republic of Fun — Studio Identity</h1>
+                    <h1>${data.title_en || slug}</h1>
                     
                     <!-- Meta Bar -->
                     <div class="project-meta">
-                        <div class="project-meta__item">
+                        ${data.client ? `<div class="project-meta__item">
                             <span class="project-meta__label">Client</span>
-                            <span class="project-meta__value">Republic of Fun (Creative Studio)</span>
-                        </div>
-                        <div class="project-meta__item">
+                            <span class="project-meta__value">${data.client}</span>
+                        </div>` : ''}
+                        ${data.year ? `<div class="project-meta__item">
                             <span class="project-meta__label">Year</span>
-                            <span class="project-meta__value">2023</span>
-                        </div>
+                            <span class="project-meta__value">${data.year}</span>
+                        </div>` : ''}
                         <div class="project-meta__item">
                             <span class="project-meta__label">Pillar</span>
-                            <span class="project-meta__pill project-meta__pill--graphic">Graphic</span>
+                            <span class="project-meta__pill project-meta__pill--${pillarClass}">${pillarLabel}</span>
                         </div>
-                        <div class="project-meta__item">
+                        ${data.duration ? `<div class="project-meta__item">
                             <span class="project-meta__label">Duration</span>
-                            <span class="project-meta__value">5 weeks</span>
-                        </div>
-                        <div class="project-meta__item">
+                            <span class="project-meta__value">${data.duration}</span>
+                        </div>` : ''}
+                        ${data.role && data.role.length ? `<div class="project-meta__item">
                             <span class="project-meta__label">Role</span>
-                            <span class="project-meta__value">Logo Design, Visual Identity, Stationery, Brand Guidelines</span>
-                        </div>
-                        <div class="project-meta__item">
+                            <span class="project-meta__value">${data.role.join(', ')}</span>
+                        </div>` : ''}
+                        ${data.tools && data.tools.length ? `<div class="project-meta__item">
                             <span class="project-meta__label">Tools</span>
-                            <span class="project-meta__value">Illustrator, InDesign</span>
-                        </div>
-                        
+                            <span class="project-meta__value">${data.tools.join(', ')}</span>
+                        </div>` : ''}
+                        ${data.external_link ? `<div class="project-meta__item">
+                            <a href="${data.external_link}" target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+                                Visit Website →
+                            </a>
+                        </div>` : ''}
                     </div>
                 </header>
                 
                 <!-- 30s Summary -->
-                <section class="project-summary">
+                ${data.challenge_en || data.approach_en || data.outcome_en ? `<section class="project-summary">
                     <h2>30s Summary</h2>
                     <ul class="project-summary__list">
-                        <li>
+                        ${data.challenge_en ? `<li>
                             <strong>Challenge:</strong>
-                            <span>Create an identity that feels both serious and playful — appealing to corporate clients while showcasing creative capability.</span>
-                        </li>
-                        <li>
+                            <span>${data.challenge_en}</span>
+                        </li>` : ''}
+                        ${data.approach_en ? `<li>
                             <strong>Approach:</strong>
-                            <span>Clean geometric wordmark with subtle playful details; restrained color system with moments of vibrancy; professional execution.</span>
-                        </li>
-                        <li>
+                            <span>${data.approach_en}</span>
+                        </li>` : ''}
+                        ${data.outcome_en ? `<li>
                             <strong>Outcome:</strong>
-                            <span>Versatile identity system that positions the studio as both reliable and innovative.</span>
-                        </li>
+                            <span>${data.outcome_en}</span>
+                        </li>` : ''}
                     </ul>
-                </section>
+                </section>` : ''}
                 
                 <!-- Body Content -->
-                <section class="project-body">
-                    ## Brand Strategy
-
-Republic of Fun needed to walk a fine line: appear professional enough for corporate work while maintaining the creative spark that defines their culture.
-
-## Visual Language
-
-The logo uses clean geometric forms with subtle rounded corners — serious but approachable. The color system is primarily black and white with strategic pops of vibrant accent colors.
-
-## Applications
-
-We developed a complete stationery suite and brand guidelines that ensure consistency across touchpoints while allowing creative flexibility in project work.
-                </section>
-
-                <!-- Gallery -->
-                <section class="project-gallery">
-                    <figure>
-                        <img src="/static/uploads/republic-logo.jpg" alt="Logo and visual identity system" width="1200" height="800" loading="lazy">
-                        <figcaption>Logo and visual identity system</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="/static/uploads/republic-stationery.jpg" alt="Stationery suite" width="1200" height="800" loading="lazy">
-                        <figcaption>Stationery suite</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="/static/uploads/republic-guidelines.jpg" alt="Brand guidelines excerpt" width="1200" height="800" loading="lazy">
-                        <figcaption>Brand guidelines excerpt</figcaption>
-                    </figure>
-                </section>
-                
+                ${data.body_en ? `<section class="project-body">
+                    ${data.body_en}
+                </section>` : ''}
+${galleryHtml}
+                ${metricsHtml || testimonialHtml ? `
+                <!-- Impact -->
+                <section class="project-impact">
+                    ${metricsHtml ? `<h2>Impact</h2>${metricsHtml}` : ''}${testimonialHtml}
+                </section>` : ''}
                 
                 <!-- Navigation -->
                 <nav class="project-nav" aria-label="Project navigation">
@@ -259,4 +299,29 @@ We developed a complete stationery suite and brand guidelines that ensure consis
     <!-- Scripts -->
     <script src="../assets/js/main.js"></script>
 </body>
-</html>
+</html>`;
+
+  return html;
+}
+
+// Main execution
+console.log('🔨 Generating project pages from JSON...');
+
+const files = fs.readdirSync(PROJECTS_DIR).filter(f => f.endsWith('.json'));
+
+files.forEach(file => {
+  const slug = file.replace('.json', '');
+  const data = JSON.parse(fs.readFileSync(path.join(PROJECTS_DIR, file), 'utf8'));
+  
+  // Skip unpublished
+  if (data.published === false) {
+    console.log(`⏭️  Skipped ${slug} (unpublished)`);
+    return;
+  }
+  
+  const html = generateProjectPage(slug, data);
+  fs.writeFileSync(path.join(OUTPUT_DIR, `${slug}.html`), html);
+  console.log(`✅ Generated ${slug}.html`);
+});
+
+console.log('✨ Done!');

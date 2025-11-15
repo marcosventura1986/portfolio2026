@@ -1,0 +1,10 @@
+{
+  "name": "ventura-portfolio",
+  "version": "1.0.0",
+  "description": "Ventura Design Portfolio Website",
+  "scripts": {
+    "build": "node scripts/generate-index.js && node scripts/generate-pages.js"
+  },
+  "author": "Marcos Ventura",
+  "license": "MIT"
+}
