@@ -26,7 +26,12 @@
   "external_link": "https://profound-choux-531382.netlify.app/",
   "title_en": "Ó Caviar — E-commerce Website",
   "outcome_pt": "Site e-commerce de alta conversão com scores 90+ no Lighthouse e experiência de usuário perfeita em todos dispositivos.",
-  "gallery": [],
+  "gallery": [
+    {
+      "src": "/static/uploads/o-caviar-brand.jpg",
+      "caption": "Use of Irish Ogham alphabet as a graphic tool to elevate the heritage aspect of the brand."
+    }
+  ],
   "duration": "6 weeks",
   "role": [
     "UX/UI Design",
