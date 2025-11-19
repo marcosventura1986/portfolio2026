@@ -1,5 +1,5 @@
 {
-  "approach_en": "Geometric bee/honey cues, soft contrast palette, modular print toolkit; event kiosk explored in 3D for fast approval.",
+  "approach_en": "Geometric bee/honey cues, bright contrast palette, modular print toolkit;",
   "challenge_pt": "Sinalizar 'natural + premium' sem clichês.",
   "body_pt": "",
   "summary_en": "A warm, modern identity for a honey-based skincare line — scaled from print to event presence.",
@@ -28,8 +28,8 @@
       "caption": "Logo variations and brand guidelines"
     },
     {
-      "src": "/static/uploads/nectar-brochure.jpg",
-      "caption": "Product brochure spread"
+      "src": "/static/uploads/nectar-brandguide.jpg",
+      "caption": "Full Brand Guide document."
     },
     {
       "src": "/static/uploads/nectar-kiosk.jpg",
@@ -58,12 +58,12 @@
     "InDesign",
     "Blender"
   ],
-  "approach_pt": "Referências geométricas de abelha/mel, paleta de contraste suave, kit modular de impressão; quiosque de evento explorado em 3D para aprovação rápida.",
+  "approach_pt": "Referências geométricas de abelha/mel, paleta de contraste suave, kit modular de impressão;",
   "year": 2025,
   "summary_pt": "Uma identidade moderna e acolhedora para uma linha de cosméticos à base de mel — escalada de impressos a presença em eventos.",
   "testimonial": {
     "author": "Ian Mernagh",
-    "role": "",
+    "role": "Owner",
     "company": "All About Nectar",
     "quote": "All About Nectar has been working with Marcos for the past two years. It has been a pleasure as all design jobs are completed quickly with high level of quality and creativity. It's rare the first draft is not on point and makes it all very easy."
   }
