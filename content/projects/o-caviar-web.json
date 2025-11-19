@@ -26,20 +26,7 @@
   "external_link": "https://profound-choux-531382.netlify.app/",
   "title_en": "Ó Caviar — E-commerce Website",
   "outcome_pt": "Site e-commerce de alta conversão com scores 90+ no Lighthouse e experiência de usuário perfeita em todos dispositivos.",
-  "gallery": [
-    {
-      "src": "/static/uploads/o-caviar-web-home.jpg",
-      "caption": "Homepage with featured products"
-    },
-    {
-      "src": "/static/uploads/o-caviar-web-product.jpg",
-      "caption": "Product detail page"
-    },
-    {
-      "src": "/static/uploads/o-caviar-web-mobile.jpg",
-      "caption": "Mobile responsive views"
-    }
-  ],
+  "gallery": [],
   "duration": "6 weeks",
   "role": [
     "UX/UI Design",
@@ -54,7 +41,7 @@
     "web-design",
     "ux-ui"
   ],
-  "video": "/static/uploads/o-caviar-web-demo.mp4",
+  "video": "",
   "tools": [
     "HTML",
     "CSS",
