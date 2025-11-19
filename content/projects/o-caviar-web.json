@@ -1,39 +1,8 @@
 {
-  "published": true,
-  "pillar": "web",
-  "client": "O Caviar (Premium Delicatessen)",
-  "year": 2024,
-  "role": ["UX/UI Design", "Front-end Development", "Photography Direction"],
-  "duration": "7 weeks",
-  "tools": ["Figma", "HTML", "CSS", "JavaScript", "Shopify"],
-  "title_en": "O Caviar — E-commerce Website",
-  "title_pt": "O Caviar — Website E-commerce",
-  "summary_en": "Fast, elegant e-commerce experience for premium delicatessen — clean UI with product-first approach.",
-  "summary_pt": "Experiência e-commerce rápida e elegante para delicatessen premium — UI limpa com abordagem focada no produto.",
-  "challenge_en": "Create an online shopping experience that matches the premium in-store experience while ensuring fast load times and smooth checkout.",
-  "challenge_pt": "Criar uma experiência de compra online que combine com a experiência premium na loja enquanto garante carregamento rápido e checkout suave.",
   "approach_en": "Minimal interface that showcases products through large imagery; streamlined navigation; optimized assets; mobile-first responsive design.",
-  "approach_pt": "Interface minimalista que destaca produtos através de imagens grandes; navegação simplificada; assets otimizados; design responsivo mobile-first.",
-  "outcome_en": "High-converting e-commerce site with 90+ Lighthouse scores and seamless user experience across devices.",
-  "outcome_pt": "Site e-commerce de alta conversão com scores 90+ no Lighthouse e experiência de usuário perfeita em todos dispositivos.",
-  "body_en": "## Design System\n\nExtended the existing brand identity into a comprehensive digital design system with reusable components, consistent spacing, and accessibility-first approach.\n\n## Product Pages\n\nLarge hero images with smooth zoom functionality; clear pricing and availability; ingredient details; related products. Mobile experience prioritizes quick add-to-cart.\n\n## Performance\n\nOptimized images using modern formats (WebP/AVIF); lazy loading; minimal JavaScript; fast checkout flow. Achieved sub-2s LCP on desktop and mobile.",
+  "challenge_pt": "Criar uma experiência de compra online que combine com a experiência premium na loja enquanto garante carregamento rápido e checkout suave.",
   "body_pt": "",
-  "cover": "/static/uploads/o-caviar-web-cover.jpg",
-  "gallery": [
-    {
-      "src": "/static/uploads/o-caviar-web-home.jpg",
-      "caption": "Homepage with featured products"
-    },
-    {
-      "src": "/static/uploads/o-caviar-web-product.jpg",
-      "caption": "Product detail page"
-    },
-    {
-      "src": "/static/uploads/o-caviar-web-mobile.jpg",
-      "caption": "Mobile responsive views"
-    }
-  ],
-  "video": "/static/uploads/o-caviar-web-demo.mp4",
+  "summary_en": "Fast, elegant e-commerce experience for premium delicatessen — clean UI with product-first approach.",
   "metrics": [
     {
       "label": "Lighthouse Performance",
@@ -48,7 +17,57 @@
       "value": "68%"
     }
   ],
-  "testimonial": null,
-  "external_link": "https://ocaviar.com",
-  "tags": ["e-commerce", "shopify", "web-design", "ux-ui"]
+  "challenge_en": "Create an online shopping experience that matches the premium in-store experience while ensuring fast load times and smooth checkout.",
+  "body_en": "## Design System\n\nExtended the existing brand identity into a comprehensive digital design system with reusable components, consistent spacing, and accessibility-first approach.\n\n## Product Pages\n\nLarge hero images with smooth zoom functionality; clear pricing and availability; ingredient details; related products. Mobile experience prioritizes quick add-to-cart.\n\n## Performance\n\nOptimized images using modern formats (WebP/AVIF); lazy loading; minimal JavaScript; fast checkout flow. Achieved sub-2s LCP on desktop and mobile.",
+  "pillar": "web",
+  "title_pt": "Ó Caviar — Website E-commerce",
+  "client": "Ó Caviar (Premium Delicatessen)",
+  "published": true,
+  "external_link": "https://profound-choux-531382.netlify.app/",
+  "title_en": "Ó Caviar — E-commerce Website",
+  "outcome_pt": "Site e-commerce de alta conversão com scores 90+ no Lighthouse e experiência de usuário perfeita em todos dispositivos.",
+  "gallery": [
+    {
+      "src": "/static/uploads/o-caviar-web-home.jpg",
+      "caption": "Homepage with featured products"
+    },
+    {
+      "src": "/static/uploads/o-caviar-web-product.jpg",
+      "caption": "Product detail page"
+    },
+    {
+      "src": "/static/uploads/o-caviar-web-mobile.jpg",
+      "caption": "Mobile responsive views"
+    }
+  ],
+  "duration": "6 weeks",
+  "role": [
+    "UX/UI Design",
+    "Front-end Development",
+    "Photography Direction"
+  ],
+  "outcome_en": "High-converting e-commerce site with 90+ Lighthouse scores and seamless user experience across devices.",
+  "cover": "/static/uploads/o-caviar-web-cover.jpg",
+  "tags": [
+    "e-commerce",
+    "shopify",
+    "web-design",
+    "ux-ui"
+  ],
+  "video": "/static/uploads/o-caviar-web-demo.mp4",
+  "tools": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Shopify"
+  ],
+  "approach_pt": "Interface minimalista que destaca produtos através de imagens grandes; navegação simplificada; assets otimizados; design responsivo mobile-first.",
+  "year": 2024,
+  "summary_pt": "Experiência e-commerce rápida e elegante para delicatessen premium — UI limpa com abordagem focada no produto.",
+  "testimonial": {
+    "quote": "I have had the privilege to work with Marcus on several projects with a past employer. I always liked the creative energy and positive attitude he brought with his work. When the time came for me to bring my own business to life, Marcus was the natural choice. \n\nHe has taken the time to listen to my requirements and through empathy and experience he has managed to create a design language that integrates my personality and energy into my brand. He has a rare creativity that combines artistry with cutting edge technology meaning the project is both beautiful, functional and powerful. \n\nThe service i have received has been second to none, any amendments I needed were completed swiftly and his broad range of capabilities means I can have one person to manage every aspect of building my brand. I would go beyond recommending Marcus Ventura and urge you to contact him for your next project. You won't be disappointed.",
+    "author": "Daniel Keenan",
+    "role": "CEO",
+    "company": "Ó Caviar"
+  }
 }
