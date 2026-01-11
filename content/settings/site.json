@@ -9,16 +9,16 @@
   "testimonials": [
     {
       "author": "Ian Mernagh",
-      "role": "",
+      "role": "Founder",
       "company": "All About Nectar",
       "quote": "All About Nectar has been working with Marcos for the past two years. It has been a pleasure as all design jobs are completed quickly with high level of quality and creativity. It's rare the first draft is not on point and makes it all very easy.",
       "avatar": "/static/uploads/avatar-sarah.jpg"
     },
     {
-      "author": "David Chen",
-      "role": "Product Manager",
-      "company": "TechFlow Inc",
-      "quote": "The 3D work was exceptional. Clean, modern, and exactly what we needed for our product launch.",
+      "author": "Daniel Keenan",
+      "role": "CEO",
+      "company": "Ó Caviar",
+      "quote": "I always liked the creative energy and positive attitude Marcus brought to his work. When the time came for me to bring my own business to life, he was the natural choice. He has a rare creativity that combines artistry with cutting edge technology, meaning the project is both beautiful, functional and powerful.",
       "avatar": "/static/uploads/avatar-david.jpg"
     }
   ]

@@ -40,7 +40,7 @@
       'filter.3d': '3D',
       'testimonials.title': 'What Clients Say',
       'testimonial1.quote': 'All About Nectar has been working with Marcos for the past two years. It has been a pleasure as all design jobs are completed quickly with high level of quality and creativity. It\'s rare the first draft is not on point and makes it all very easy.',
-      'testimonial2.quote': 'The 3D work was exceptional. Clean, modern, and exactly what we needed for our product launch.',
+      'testimonial2.quote': 'I always liked the creative energy and positive attitude Marcus brought to his work. When the time came for me to bring my own business to life, he was the natural choice. He has a rare creativity that combines artistry with cutting edge technology, meaning the project is both beautiful, functional and powerful.',
       'social.title': 'Find Me Online',
       'contact.title': 'Got a project in mind? Let\'s talk.',
       'contact.cta': 'Start a conversation',
