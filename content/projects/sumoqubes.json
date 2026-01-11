@@ -3,20 +3,7 @@
   "challenge_pt": "Atrair jogadores mobile casuais enquanto mostra funcionalidades do jogo e impulsiona conversões na app store.",
   "body_pt": "**Apresentação de Personagens**\n\nHero grande em destaque com os personagens de SumoQubes, com animações sutis e efeitos de parallax. Cada personagem tem uma seção dedicada destacando suas habilidades únicas.\n\n**Destaques de Funcionalidades**\n\nSeções claras e fáceis de entender explicando as mecânicas do jogo, recursos sociais e sistemas de progressão. Apoiado por GIFs de gameplay e capturas de tela.\n\n**Fluxo de Download**\n\nBotões das lojas de apps posicionados de forma estratégica, com detecção inteligente para iOS/Android. Mensagens claras sobre os recursos do jogo e prova social (avaliações, número de downloads).",
   "summary_en": "Playful, high-performance marketing site for mobile game — character-driven design with smooth animations.",
-  "metrics": [
-    {
-      "label": "App Store Traffic",
-      "value": "+200%"
-    },
-    {
-      "label": "Install Conversion",
-      "value": "12.5%"
-    },
-    {
-      "label": "Lighthouse Score",
-      "value": "96"
-    }
-  ],
+  "metrics": [],
   "challenge_en": "Appeal to casual mobile gamers while showcasing game features and driving app store conversions.",
   "body_en": "## Character Showcase\n\nLarge hero featuring the SumoQubes characters with subtle animations and parallax effects. Each character has a dedicated section highlighting their unique abilities.\n\n## Feature Highlights\n\nClear, digestible sections explaining game mechanics, social features, and progression systems. Supported by gameplay GIFs and screenshots.\n\n## Download Flow\n\nStrategically placed app store buttons with smart detection for iOS/Android. Clear messaging about game features and social proof (ratings, downloads).",
   "pillar": "web",
