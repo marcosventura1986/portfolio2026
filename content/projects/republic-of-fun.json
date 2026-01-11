@@ -1,54 +1,52 @@
 {
-  "published": true,
-  "pillar": "web",
-  "client": "Republic of Fun (Creative Studio)",
-  "year": 2023,
-  "role": ["Web Design", "Front-end Development", "CMS Integration"],
-  "duration": "8 weeks",
-  "tools": ["Figma", "HTML", "CSS", "JavaScript", "Craft CMS"],
-  "title_en": "Republic of Fun — Studio Website",
-  "title_pt": "Republic of Fun — Website do Estúdio",
-  "summary_en": "Clean, portfolio-focused website for creative studio — showcasing work with minimal distraction.",
-  "summary_pt": "Website limpo e focado em portfolio para estúdio criativo — mostrando trabalhos com mínima distração.",
-  "challenge_en": "Let the studio's creative work shine while providing easy content management for regular updates.",
-  "challenge_pt": "Deixar o trabalho criativo do estúdio brilhar enquanto fornece gerenciamento de conteúdo fácil para atualizações regulares.",
-  "approach_en": "Minimal interface with large project imagery; intuitive filtering; fast-loading pages; custom CMS integration for team to manage portfolio.",
-  "approach_pt": "Interface minimalista com imagens grandes de projetos; filtragem intuitiva; páginas de carregamento rápido; integração CMS customizada para equipe gerenciar portfolio.",
-  "outcome_en": "Elegant portfolio site that increased client inquiries by 60% and simplified internal content workflow.",
-  "outcome_pt": "Site de portfolio elegante que aumentou consultas de clientes em 60% e simplificou workflow interno de conteúdo.",
-  "body_en": "## Portfolio Grid\n\nLarge, filterable grid showcasing studio projects across different disciplines. Smooth transitions and hover states reveal project details without page loads.\n\n## Project Pages\n\nFull-bleed imagery with minimal text overlay. Process documentation, client testimonials, and related work suggestions.\n\n## CMS Integration\n\nCustom Craft CMS setup allowing the team to easily add projects, update case studies, and manage team bios without developer intervention.",
+  "approach_en": "Raw, grunge, punk style with  striking colours and gaming elements such as pixel art for avatars.",
+  "challenge_pt": "Posicionar o estúdio não apenas como um grupo de desenvolvedores de jogos trabalhando em projetos, mas como uma república autoproclamada, estruturada e rebelde.",
   "body_pt": "",
-  "cover": "/static/uploads/republic-web-cover.jpg",
+  "summary_en": "Indie game studio website",
+  "metrics": [],
+  "challenge_en": "Showcase the studio not only as a group of game devs working on projects but as a structured rebelious self proclamed republic.",
+  "body_en": "## Manifest\n\nThe manifest represents the vision and mission in a new and fresh way. The use of typewriter typography is intentional to represent a manifesto letter.\n\n## Viva La Revolcion\n\nBright contrasting colours, erosion, ink splatter, spray, graphitty and other street art elements are the elements that bring the revolutionary motiv to life.",
+  "pillar": "web",
+  "title_pt": "Republic of Fun — Website do Estúdio",
+  "client": "Republic of Fun (Creative Studio)",
+  "published": true,
+  "external_link": "https://www.republicoffunltd.com",
+  "title_en": "Republic of Fun — Studio Website",
+  "outcome_pt": "Site com personalidade forte, elementos gráficos impactantes e navegação fluida.",
   "gallery": [
     {
-      "src": "/static/uploads/republic-web-grid.jpg",
-      "caption": "Portfolio grid with filtering"
+      "src": "/static/uploads/rofl_site1.jpg",
+      "caption": "Webpage Sections"
     },
     {
-      "src": "/static/uploads/republic-web-project.jpg",
-      "caption": "Project detail page layout"
-    },
-    {
-      "src": "/static/uploads/republic-web-about.jpg",
-      "caption": "About page with team section"
+      "src": "/static/uploads/rofl_site2.jpg",
+      "caption": "Page Footer"
     }
+  ],
+  "duration": "8 weeks",
+  "role": [
+    "Web Design",
+    "Front-end Development",
+    "CMS Integration"
+  ],
+  "outcome_en": "Strong personality website, with impactful graphic elements and smooth navigation.",
+  "cover": "/static/uploads/republic-web-cover.jpg",
+  "tags": [
+    "portfolio",
+    "studio",
+    "cms",
+    "web-design"
   ],
   "video": "",
-  "metrics": [
-    {
-      "label": "Client Inquiries",
-      "value": "+60%"
-    },
-    {
-      "label": "Avg. Session",
-      "value": "4m 18s"
-    },
-    {
-      "label": "Bounce Rate",
-      "value": "22%"
-    }
+  "tools": [
+    "Figma",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Craft CMS"
   ],
-  "testimonial": null,
-  "external_link": "https://www.republicoffunltd.com",
-  "tags": ["portfolio", "studio", "cms", "web-design"]
+  "approach_pt": "Estilo cru, grunge e punk, com cores marcantes e elementos de games, como pixel art nos avatares.",
+  "year": 2023,
+  "summary_pt": "Website para estudio de jogos indie.",
+  "testimonial": null
 }
