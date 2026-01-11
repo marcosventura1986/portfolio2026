@@ -6,5 +6,8 @@
     "build": "node scripts/generate-index.js && node scripts/generate-pages.js"
   },
   "author": "Marcos Ventura",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "markdown-it": "^14.1.0"
+  }
 }

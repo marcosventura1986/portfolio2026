@@ -2,6 +2,8 @@
 
 const fs = require('fs');
 const path = require('path');
+const MarkdownIt = require('markdown-it');
+const md = new MarkdownIt();
 
 const PROJECTS_DIR = path.join(__dirname, '../content/projects');
 const OUTPUT_DIR = path.join(__dirname, '../project');
@@ -217,7 +219,7 @@ ${data.metrics.map(m => `                        <div class="metric">
                 
                 <!-- Body Content -->
                 ${data.body_en ? `<section class="project-body">
-                    ${data.body_en}
+                    ${md.render(data.body_en)}
                 </section>` : ''}
 ${galleryHtml}
                 ${metricsHtml || testimonialHtml ? `

@@ -1,47 +1,39 @@
 [
   {
     "slug": "nectar",
-    "title_en": "Nectar — Brand & Event System",
-    "title_pt": "Nectar — Sistema de Marca e Eventos",
+    "title_en": "Nectar — Brand & Packaging",
+    "title_pt": "Nectar — Marca e Embalagens",
     "pillar": "graphic",
     "year": 2025,
     "client": "Nectar (Honey-based Skincare)",
     "cover": "/static/uploads/nectar-cover.jpg",
     "summary_en": "A warm, modern identity for a honey-based skincare line — scaled from print to event presence.",
-    "summary_pt": "Uma identidade moderna e acolhedora para uma linha de cosméticos à base de mel — escalada de impressos a presença em eventos."
+    "summary_pt": "Uma identidade moderna e acolhedora para uma linha de cosméticos à base de mel — escalada de impressos a presença em eventos.",
+    "published": true
   },
   {
     "slug": "o-caviar-brand",
-    "title_en": "O Caviar — Brand & Packaging",
-    "title_pt": "O Caviar — Marca e Embalagem",
+    "title_en": "Ó Caviar — Brand & Packaging",
+    "title_pt": "Ó Caviar — Marca e Embalagem",
     "pillar": "graphic",
     "year": 2024,
-    "client": "O Caviar (Premium Delicatessen)",
+    "client": "Ó Caviar (Premium Delicatessen)",
     "cover": "/static/uploads/o-caviar-brand-cover.jpg",
-    "summary_en": "High-contrast identity for a premium delicatessen — from logo to micro-grid tin labels.",
-    "summary_pt": "Identidade de alto contraste para um delicatessen premium — do logo às etiquetas de lata com micro-grid."
+    "summary_en": "Logo creation, Brand development and labelling assets.",
+    "summary_pt": "Identidade de alto contraste para um delicatessen premium — do logo às etiquetas de lata.",
+    "published": true
   },
   {
-    "slug": "sumoqubes-brand",
-    "title_en": "SumoQubes — IP Branding",
-    "title_pt": "SumoQubes — Branding de IP",
-    "pillar": "graphic",
+    "slug": "o-caviar-web",
+    "title_en": "Ó Caviar — E-commerce Website",
+    "title_pt": "Ó Caviar — Website E-commerce",
+    "pillar": "web",
     "year": 2024,
-    "client": "SumoQubes (Gaming IP)",
-    "cover": "/static/uploads/sumoqubes-brand-cover.jpg",
-    "summary_en": "Playful yet clear identity system for a gaming IP — logo suite, key art, and social templates.",
-    "summary_pt": "Sistema de identidade divertido mas claro para uma IP de jogos — suite de logos, key art e templates sociais."
-  },
-  {
-    "slug": "republic-of-fun-brand",
-    "title_en": "Republic of Fun — Studio Identity",
-    "title_pt": "Republic of Fun — Identidade de Estúdio",
-    "pillar": "graphic",
-    "year": 2023,
-    "client": "Republic of Fun (Creative Studio)",
-    "cover": "/static/uploads/republic-brand-cover.jpg",
-    "summary_en": "Minimal studio identity that balances professionalism with creative energy.",
-    "summary_pt": "Identidade de estúdio minimalista que equilibra profissionalismo com energia criativa."
+    "client": "Ó Caviar (Premium Delicatessen)",
+    "cover": "/static/uploads/o-caviar-web-cover.jpg",
+    "summary_en": "Fast, elegant e-commerce experience for premium delicatessen — clean UI with product-first approach.",
+    "summary_pt": "Experiência e-commerce rápida e elegante para delicatessen premium — UI limpa com abordagem focada no produto.",
+    "published": true
   },
   {
     "slug": "selected-renders",
@@ -52,18 +44,32 @@
     "client": "Personal Work",
     "cover": "/static/uploads/renders-cover.jpg",
     "summary_en": "Curated collection of 3D work spanning product visualization, interior scenes, and abstract explorations.",
-    "summary_pt": "Coleção curada de trabalho 3D abrangendo visualização de produto, cenas de interior e explorações abstratas."
+    "summary_pt": "Coleção curada de trabalho 3D abrangendo visualização de produto, cenas de interior e explorações abstratas.",
+    "published": true
   },
   {
-    "slug": "o-caviar-web",
-    "title_en": "O Caviar — E-commerce Website",
-    "title_pt": "O Caviar — Website E-commerce",
+    "slug": "sumoqubes-brand",
+    "title_en": "SumoQubes — IP Branding",
+    "title_pt": "SumoQubes — Branding de IP",
+    "pillar": "graphic",
+    "year": 2024,
+    "client": "SumoQubes (Gaming IP)",
+    "cover": "/static/uploads/sumoqubes-brand-cover.jpg",
+    "summary_en": "Playful yet clear identity system for a gaming IP — logo suite, key art, and social templates.",
+    "summary_pt": "Sistema de identidade divertido mas claro para uma IP de jogos — suite de logos, key art e templates sociais.",
+    "published": true
+  },
+  {
+    "slug": "sumoqubes",
+    "title_en": "SumoQubes — Game Website",
+    "title_pt": "SumoQubes — Website do Jogo",
     "pillar": "web",
     "year": 2024,
-    "client": "O Caviar (Premium Delicatessen)",
-    "cover": "/static/uploads/o-caviar-web-cover.jpg",
-    "summary_en": "Fast, elegant e-commerce experience for premium delicatessen — clean UI with product-first approach.",
-    "summary_pt": "Experiência e-commerce rápida e elegante para delicatessen premium — UI limpa com abordagem focada no produto."
+    "client": "SumoQubes (Gaming IP)",
+    "cover": "/static/uploads/sumoqubes-logos.jpg",
+    "summary_en": "Playful, high-performance marketing site for mobile game — character-driven design with smooth animations.",
+    "summary_pt": "Site de marketing divertido e de alta performance para jogo mobile — design focado em personagens com animações suaves.",
+    "published": true
   },
   {
     "slug": "playthisigf",
@@ -74,18 +80,20 @@
     "client": "PlayThis IGF (Gaming Event)",
     "cover": "/static/uploads/playthis-cover.jpg",
     "summary_en": "Bold, animated event site for independent game festival — engaging interactions with fast performance.",
-    "summary_pt": "Site de evento animado e ousado para festival de jogos independentes — interações envolventes com performance rápida."
+    "summary_pt": "Site de evento animado e ousado para festival de jogos independentes — interações envolventes com performance rápida.",
+    "published": true
   },
   {
-    "slug": "sumoqubes",
-    "title_en": "SumoQubes — Game Website",
-    "title_pt": "SumoQubes — Website do Jogo",
-    "pillar": "web",
-    "year": 2024,
-    "client": "SumoQubes (Gaming IP)",
-    "cover": "/static/uploads/sumoqubes-web-cover.jpg",
-    "summary_en": "Playful, high-performance marketing site for mobile game — character-driven design with smooth animations.",
-    "summary_pt": "Site de marketing divertido e de alta performance para jogo mobile — design focado em personagens com animações suaves."
+    "slug": "republic-of-fun-brand",
+    "title_en": "Republic of Fun — Studio Identity",
+    "title_pt": "Republic of Fun — Identidade de Estúdio",
+    "pillar": "graphic",
+    "year": 2023,
+    "client": "Republic of Fun (Creative Studio)",
+    "cover": "/static/uploads/republic-brand-cover.jpg",
+    "summary_en": "Minimal studio identity that balances professionalism with creative energy.",
+    "summary_pt": "Identidade de estúdio minimalista que equilibra profissionalismo com energia criativa.",
+    "published": true
   },
   {
     "slug": "republic-of-fun",
@@ -96,6 +104,7 @@
     "client": "Republic of Fun (Creative Studio)",
     "cover": "/static/uploads/republic-web-cover.jpg",
     "summary_en": "Clean, portfolio-focused website for creative studio — showcasing work with minimal distraction.",
-    "summary_pt": "Website limpo e focado em portfolio para estúdio criativo — mostrando trabalhos com mínima distração."
+    "summary_pt": "Website limpo e focado em portfolio para estúdio criativo — mostrando trabalhos com mínima distração.",
+    "published": true
   }
 ]
