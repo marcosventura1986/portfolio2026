@@ -1,53 +1,64 @@
 {
-  "published": true,
-  "pillar": "3d",
-  "client": "Personal Work",
-  "year": 2024,
-  "role": ["3D Modeling", "Lighting", "Rendering", "Post-Production"],
-  "duration": "Ongoing",
-  "tools": ["Blender", "Cycles", "Photoshop"],
-  "title_en": "Selected Renders — 3D Gallery",
-  "title_pt": "Renders Selecionados — Galeria 3D",
-  "summary_en": "Curated collection of 3D work spanning product visualization, interior scenes, and abstract explorations.",
-  "summary_pt": "Coleção curada de trabalho 3D abrangendo visualização de produto, cenas de interior e explorações abstratas.",
-  "challenge_en": "Demonstrate versatility across different 3D disciplines while maintaining a cohesive aesthetic.",
-  "challenge_pt": "Demonstrar versatilidade em diferentes disciplinas 3D mantendo uma estética coesa.",
-  "approach_en": "Focus on clean lighting, material accuracy, and composition. Each piece explores different techniques while adhering to minimal aesthetic principles.",
-  "approach_pt": "Foco em iluminação limpa, precisão de materiais e composição. Cada peça explora técnicas diferentes aderindo a princípios estéticos minimalistas.",
-  "outcome_en": "Portfolio of high-quality renders showcasing technical skill and artistic vision.",
-  "outcome_pt": "Portfolio de renders de alta qualidade mostrando habilidade técnica e visão artística.",
-  "body_en": "## Product Visualization\n\nClean, studio-lit product renders emphasizing form, materials, and details. Focus on photorealistic lighting and texture work.\n\n## Interior Scenes\n\nArchitectural visualization exploring space, light, and atmosphere. Emphasis on mood and material believability.\n\n## Abstract Explorations\n\nExperimental work pushing technical and artistic boundaries. Playing with procedural materials, physics simulations, and non-representational forms.",
+  "approach_en": "Use of wooden panels and floor contrasting with lightboxes and led edge finishes.",
+  "challenge_pt": "Utilizar o espaco disponivel criando um ambiente harmonioso e impactante para o organisador do evento.",
   "body_pt": "",
-  "cover": "/static/uploads/renders-cover.jpg",
+  "summary_en": "Feature area sponsored by Microsof for exposition at the CCD, Dublin.",
+  "metrics": [],
+  "challenge_en": "Optimizng the space available while creating an impactful feature area for the event oraniser.",
+  "body_en": "## Space Visualization\n\nA full hub with 5 Integrated areas:\\\n- Innovation Stage\\\n- Demos Area\\\n- Lounge\\\n- Tinkering area\\\n- Info Desk\n\n## Branding\n\nLightbox hanging banner and lightbox totems supported by branding on stage, walls and counters.",
+  "pillar": "3d",
+  "title_pt": "Innovation Hub @ ESPC25",
+  "client": "ESPC25",
+  "published": true,
+  "external_link": "",
+  "title_en": "Innovation Hub @ ESPC25",
+  "outcome_pt": "Area coesa e bem estruturada com branding claro e proeminente.",
   "gallery": [
     {
-      "src": "/static/uploads/render-product-01.jpg",
-      "caption": "Product: Minimalist speaker design"
+      "src": "/static/uploads/ih_1.jpg",
+      "caption": "Tech Demos"
     },
     {
-      "src": "/static/uploads/render-product-02.jpg",
-      "caption": "Product: Ceramic vase study"
+      "src": "/static/uploads/ih_2.jpg",
+      "caption": "Feedback Lounge"
     },
     {
-      "src": "/static/uploads/render-interior-01.jpg",
-      "caption": "Interior: Contemporary living space"
+      "src": "/static/uploads/ih_3.jpg",
+      "caption": "Tech Demos "
     },
     {
-      "src": "/static/uploads/render-interior-02.jpg",
-      "caption": "Interior: Natural light study"
-    },
-    {
-      "src": "/static/uploads/render-abstract-01.jpg",
-      "caption": "Abstract: Geometric composition"
-    },
-    {
-      "src": "/static/uploads/render-abstract-02.jpg",
-      "caption": "Abstract: Material exploration"
+      "src": "/static/uploads/ih_fim.jpg",
+      "caption": "Side View"
     }
   ],
+  "duration": "Ongoing",
+  "role": [
+    "3D Modeling",
+    "Lighting",
+    "Rendering",
+    "Post-Production"
+  ],
+  "outcome_en": "Cohesive and structured hub area with clear and proeminent branding.",
+  "cover": "/static/uploads/ih_cover.jpg",
+  "tags": [
+    "3d",
+    "rendering",
+    "blender",
+    "visualization"
+  ],
   "video": "",
-  "metrics": [],
-  "testimonial": null,
-  "external_link": "",
-  "tags": ["3d", "rendering", "blender", "visualization"]
+  "tools": [
+    "Blender",
+    "Cycles",
+    "InDesign"
+  ],
+  "approach_pt": "Utilizacao de materiais organicos como madeira contrastanto com a luz neon das lightboxes e acabamentos em led.",
+  "year": 2025,
+  "summary_pt": "Hub de technologia inovativa patrocinado por Microsoft para o evento ESPC25 em Dublin, Irlanda.",
+  "testimonial": {
+    "author": " ",
+    "role": " ",
+    "company": " ",
+    "quote": " "
+  }
 }
