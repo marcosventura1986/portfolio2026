@@ -3,20 +3,7 @@
   "challenge_pt": "Criar uma experiência de compra online que combine com a experiência premium na loja enquanto garante carregamento rápido e checkout suave.",
   "body_pt": "",
   "summary_en": "Fast, elegant e-commerce experience for premium delicatessen — clean UI with product-first approach.",
-  "metrics": [
-    {
-      "label": "Lighthouse Performance",
-      "value": "94"
-    },
-    {
-      "label": "Conversion Rate",
-      "value": "+42%"
-    },
-    {
-      "label": "Mobile Traffic",
-      "value": "68%"
-    }
-  ],
+  "metrics": [],
   "challenge_en": "Create an online shopping experience that matches the premium in-store experience while ensuring fast load times and smooth checkout.",
   "body_en": "## Design System\n\nExtended the existing brand identity into a comprehensive digital design system with reusable components, consistent spacing, and accessibility-first approach.\n\n## Product Pages\n\nLarge hero images with smooth zoom functionality; clear pricing and availability; ingredient details; related products. Mobile experience prioritizes quick add-to-cart.\n\n## Performance\n\nOptimized images using modern formats (WebP/AVIF); lazy loading; minimal JavaScript; fast checkout flow. Achieved sub-2s LCP on desktop and mobile.",
   "pillar": "web",
