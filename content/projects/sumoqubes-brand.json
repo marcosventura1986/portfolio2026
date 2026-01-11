@@ -1,50 +1,54 @@
 {
-  "published": true,
-  "pillar": "graphic",
-  "client": "SumoQubes (Gaming IP)",
-  "year": 2024,
-  "role": ["IP Logo Suite", "Key Art", "Social Templates", "Brand Guidelines"],
-  "duration": "8 weeks",
-  "tools": ["Illustrator", "Photoshop", "After Effects"],
-  "title_en": "SumoQubes — IP Branding",
-  "title_pt": "SumoQubes — Branding de IP",
-  "summary_en": "Playful yet clear identity system for a gaming IP — logo suite, key art, and social templates.",
-  "summary_pt": "Sistema de identidade divertido mas claro para uma IP de jogos — suite de logos, key art e templates sociais.",
-  "challenge_en": "Create a flexible brand system that works across games, merchandise, and social media while maintaining character personality.",
+  "approach_en": "Developed logo with vibrant color palette.",
   "challenge_pt": "Criar um sistema de marca flexível que funcione em jogos, merchandise e redes sociais mantendo a personalidade do personagem.",
-  "approach_en": "Developed a modular logo system with multiple lockups, vibrant color palette, and template library for consistent social presence.",
-  "approach_pt": "Desenvolvemos um sistema modular de logo com múltiplas configurações, paleta vibrante e biblioteca de templates para presença social consistente.",
-  "outcome_en": "Cohesive IP identity ready for multi-platform deployment with strong recognition and merchandising potential.",
-  "outcome_pt": "Identidade de IP coesa pronta para deployment multi-plataforma com forte reconhecimento e potencial de merchandising.",
-  "body_en": "## IP Development\n\nSumoQubes required a brand identity that could scale from app icons to billboards while maintaining the playful personality of the characters.\n\n## Logo System\n\nWe created a comprehensive logo suite including:\n- Primary wordmark with character integration\n- Icon-only version for app stores\n- Horizontal and stacked layouts\n- Monochrome alternatives\n\n## Key Art & Templates\n\nDeveloped hero key art and a library of social media templates that maintain brand consistency while allowing creative flexibility for campaigns.",
   "body_pt": "",
-  "cover": "/static/uploads/sumoqubes-brand-cover.jpg",
+  "summary_en": "Playful yet clear identity system for a gaming IP.",
+  "metrics": [],
+  "challenge_en": "Create a flexible brand system that works across games, merchandise, and social media while maintaining character personality.",
+  "body_en": "## IP Development\n\nSumoQubes required a brand identity that could scale from app icons to billboards while maintaining the playful personality of the characters.\n\n## Logo System\n\nWe created a comprehensive logo suite including:\n\n* Primary wordmark with character integration\n* Icon-only version for app stores\n* Horizontal and stacked layouts\n* Monochrome alternatives\n\n## Key Art \n\nDeveloped hero key art that maintain brand consistency while allowing creative flexibility for campaigns.",
+  "pillar": "graphic",
+  "title_pt": "SumoQubes — Branding de IP",
+  "client": "SumoQubes (Gaming IP)",
+  "published": true,
+  "external_link": "",
+  "title_en": "SumoQubes — IP Branding",
+  "outcome_pt": "Identidade de IP coesa pronta para deployment multi-plataforma com forte reconhecimento e potencial de merchandising.",
   "gallery": [
     {
       "src": "/static/uploads/sumoqubes-logos.jpg",
-      "caption": "Complete logo suite variations"
+      "caption": "Logo concept applied on the first product of the brand: Sumo Qubes (Mobile Game)"
     },
     {
-      "src": "/static/uploads/sumoqubes-keyart.jpg",
-      "caption": "Key art and character exploration"
+      "src": "/static/uploads/sumoqubes-brandguide.jpg",
+      "caption": "Brand Guides"
     },
     {
-      "src": "/static/uploads/sumoqubes-social.jpg",
-      "caption": "Social media template system"
+      "src": "/static/uploads/sumo-qubes-pallete.png",
+      "caption": "Contrasting and Playful colour pallette"
     }
+  ],
+  "duration": "8 weeks",
+  "role": [
+    "IP Logo Suite",
+    "Key Art",
+    "Brand Guidelines"
+  ],
+  "outcome_en": "Cohesive IP identity ready for multi-platform deployment with strong recognition and merchandising potential.",
+  "cover": "/static/uploads/sumoqubes-brand-cover.jpg",
+  "tags": [
+    "gaming",
+    "ip",
+    "branding",
+    "character-design"
   ],
   "video": "",
-  "metrics": [
-    {
-      "label": "Social Engagement",
-      "value": "+120%"
-    },
-    {
-      "label": "Brand Recognition",
-      "value": "85%"
-    }
+  "tools": [
+    "Illustrator",
+    "Photoshop",
+    "Blender"
   ],
-  "testimonial": null,
-  "external_link": "",
-  "tags": ["gaming", "ip", "branding", "character-design"]
+  "approach_pt": "Desenvolvemos logo com uma paleta vibrante.",
+  "year": 2023,
+  "summary_pt": "Sistema de identidade divertido mas claro para uma IP.",
+  "testimonial": null
 }
