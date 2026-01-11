@@ -3,22 +3,9 @@
   "challenge_pt": "Criar emoção e energia para um evento de jogos mantendo acessibilidade e performance em todos dispositivos.",
   "body_pt": "",
   "summary_en": "Bold, animated event site for independent game festival — engaging interactions with fast performance.",
-  "metrics": [
-    {
-      "label": "Page Views",
-      "value": "45K+"
-    },
-    {
-      "label": "Avg. Session",
-      "value": "3m 42s"
-    },
-    {
-      "label": "Mobile Users",
-      "value": "71%"
-    }
-  ],
+  "metrics": [],
   "challenge_en": "Create excitement and energy for a gaming event while maintaining accessibility and performance across devices.",
-  "body_en": "## Event Identity\n\nTranslated the PlayThis IGF brand into a dynamic web experience with bold typography, bright accent colors, and playful interactions.\n\n## Game Showcase\n\nInteractive grid displaying featured indie games with hover effects, trailers, and direct links to developers. Filterable by category and platform.\n\n## Schedule & Information\n\nClear event schedule with session details, speaker bios, and venue information. Mobile-optimized for on-the-go attendees.",
+  "body_en": "## Event Identity\n\nTranslated the PlayThis IGF brand into a dynamic web experience with bold typography, bright accent colors, and playful interactions.\n\n## Interactive Venue Map\n\n360 view of each venue area linked to an interactive floorplan.\n\n## Opt-In Integrated for Newsletter\n\nFront end only solution for a google foor to capture newsletter signatures.",
   "pillar": "web",
   "title_pt": "PlayThis IGF — Website de Evento",
   "client": "PlayThis IGF (Gaming Event)",
@@ -26,12 +13,16 @@
   "external_link": "https://www.playthisigf.com",
   "title_en": "PlayThis IGF — Event Website",
   "outcome_pt": "Site de alta energia que gerou forte buzz pré-evento e serviu como hub central para participantes.",
-  "gallery": [],
-  "duration": "5 weeks",
+  "gallery": [
+    {
+      "src": "/static/uploads/playthis_site.jpg",
+      "caption": "Playful icons to illustrate the about section along with the link for the interactive map"
+    }
+  ],
+  "duration": "1 week",
   "role": [
     "Web Design",
-    "Front-end Development",
-    "Animation"
+    "Front-end Development"
   ],
   "outcome_en": "High-energy site that generated strong pre-event buzz and served as the central hub for attendees.",
   "cover": "/static/uploads/playthis-cover.jpg",
@@ -43,14 +34,13 @@
   ],
   "video": "",
   "tools": [
-    "Figma",
     "HTML",
     "CSS",
     "JavaScript",
-    "GSAP"
+    "React3Fiber"
   ],
   "approach_pt": "Paleta de cores vibrante; animações de scroll suaves; showcase interativo de jogos; seções modulares para atualizações fáceis; suporte a reduced-motion.",
-  "year": 2023,
+  "year": 2026,
   "summary_pt": "Site de evento animado e ousado para festival de jogos independentes — interações envolventes com performance rápida.",
   "testimonial": {
     "author": " ",
